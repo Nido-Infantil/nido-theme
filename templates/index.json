@@ -111,7 +111,7 @@
         "slide_8TtXBG"
       ],
       "settings": {
-        "layout": "full_width",
+        "layout": "grid",
         "slide_height": "adapt_image",
         "arrow_position": "inline",
         "slider_visual": "dots",
