@@ -883,6 +883,7 @@
     },
     "scrolling_bar_AT7Vxy": {
       "type": "scrolling-bar",
+      "disabled": true,
       "settings": {
         "wb_marktext": "Menos Telas. Mais infância! | Nido - Onde brinca vira memória.",
         "outline_text": false,
