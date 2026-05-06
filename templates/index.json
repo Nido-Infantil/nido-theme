@@ -452,107 +452,6 @@
         "padding_bottom": 0
       }
     },
-    "logo_bar_qKXHMP": {
-      "type": "logo-bar",
-      "blocks": {
-        "logo_image_VWrXCf": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/FRETE_78622772-d3ef-4e68-899c-88ea309f3bca.png",
-            "description": "<p><br/>🚚 Frete para todo o Brasil<br/><br/></p>",
-            "link": ""
-          }
-        },
-        "logo_image_jNPhb3": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/COMPRA_SEGURA_466ef078-a2f5-4909-a9dd-d3042467ba73.png",
-            "description": "<p><br/>🔒 Compra segura<br/><br/><br/></p>",
-            "link": ""
-          }
-        },
-        "logo_image_rgMhrq": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/Atendimento_via_whats.png",
-            "description": "<p><br/>🤎 Atendimento humano<br/><br/><br/></p>",
-            "link": ""
-          }
-        },
-        "logo_image_XNFwqb": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/Desconto_5_pix.png",
-            "description": "<p><br/>✨ 5% OFF no Pix<br/><br/><br/></p>",
-            "link": ""
-          }
-        },
-        "logo_image_3Uatih": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify://shop_images/Cartao_credito.png",
-            "description": "<p>💳 Parcele sua compra</p><p></p>",
-            "link": ""
-          }
-        },
-        "logo_image_6pNLAX": {
-          "type": "logo_image",
-          "disabled": true,
-          "settings": {
-            "description": "",
-            "link": ""
-          }
-        },
-        "logo_image_9HVCYG": {
-          "type": "logo_image",
-          "disabled": true,
-          "settings": {
-            "description": "<p>“Iconic toys. Unforgettable play moments.”</p>",
-            "link": ""
-          }
-        },
-        "logo_image_rzN9Q4": {
-          "type": "logo_image",
-          "disabled": true,
-          "settings": {
-            "description": "<p>\" Bringing You the Finest and trusted Brands \"</p>",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_image_VWrXCf",
-        "logo_image_jNPhb3",
-        "logo_image_rgMhrq",
-        "logo_image_XNFwqb",
-        "logo_image_3Uatih",
-        "logo_image_6pNLAX",
-        "logo_image_9HVCYG",
-        "logo_image_rzN9Q4"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "<strong>Tudo para comprar com tranquilidade 🤎</strong>",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "full_width": true,
-        "enable_border": true,
-        "enable_separator": true,
-        "content_alignment": "center",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "columns_desktop": 5,
-        "enable_desktop_slider": true,
-        "arrow_position": "inline",
-        "arrow_style": "button",
-        "secondary_background": false,
-        "sec_background_color": "#ffffff",
-        "color_scheme": "accent-1",
-        "swipe_on_mobile": true,
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
-    },
     "image_banner_hi3iWk": {
       "type": "image-banner",
       "blocks": {
@@ -945,7 +844,6 @@
     "collection_list_te7iqY",
     "video_Qn3ddY",
     "image_with_text_AbaJVU",
-    "logo_bar_qKXHMP",
     "image_banner_hi3iWk",
     "featured_collection_FpmFxb",
     "scrolling_bar_qjKeqw",
