@@ -219,7 +219,7 @@
         "link_window": true,
         "button_style_secondary": "link",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 56,
         "padding_bottom": 16
       }
