@@ -17,6 +17,7 @@
           "settings": {
             "pagination_text": "",
             "image": "shopify://shop_images/Banners_do_site.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE_01_-_Hero.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h1",
