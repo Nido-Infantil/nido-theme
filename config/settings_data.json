@@ -49,7 +49,7 @@
     "card_font_type": "body",
     "card_price_size": "medium",
     "card_image_padding": 0,
-    "card_text_alignment": "center",
+    "card_text_alignment": "left",
     "image_ratio": "portrait",
     "show_quantity": false,
     "show_vendor": true,
