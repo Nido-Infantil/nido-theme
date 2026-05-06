@@ -186,6 +186,44 @@
         "padding_bottom": 8
       }
     },
+    "featured_collection_PPjXEe": {
+      "type": "featured-collection",
+      "settings": {
+        "sec_full_width": false,
+        "miniheading": "",
+        "mini_heading_style": "button",
+        "title": "<strong>Kits magnéticos - Nido</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "description": "<p>Conheça nossos produtos</p>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "kits-magneticos",
+        "product_list": [],
+        "products_to_show": 8,
+        "columns_desktop": 5,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "arrow_position": "inline",
+        "arrow_style": "icon",
+        "color_scheme": "background-1",
+        "box_align": "bottom",
+        "text_alignment": "center",
+        "show_text_box": false,
+        "imgcolor_scheme": "",
+        "heading": "",
+        "sub_heading": "",
+        "button_label": "",
+        "button_link": "",
+        "link_window": true,
+        "button_style_secondary": "link",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 56,
+        "padding_bottom": 16
+      }
+    },
     "collection_list_te7iqY": {
       "type": "collection-list",
       "blocks": {
@@ -265,6 +303,7 @@
         "featured_collection_mMAQq7",
         "featured_collection_9jNmTP"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "container",
         "miniheading": "Coleções",
@@ -358,44 +397,6 @@
         "color_scheme": "accent-2",
         "padding_top": 60,
         "padding_bottom": 0
-      }
-    },
-    "featured_collection_PPjXEe": {
-      "type": "featured-collection",
-      "settings": {
-        "sec_full_width": true,
-        "miniheading": "",
-        "mini_heading_style": "button",
-        "title": "<strong>Kits magnéticos - Nido</strong>",
-        "heading_size": "h2",
-        "heading_alignment": "center",
-        "description": "",
-        "show_description": false,
-        "description_style": "subtitle",
-        "collection": "kits-magneticos",
-        "product_list": [],
-        "products_to_show": 8,
-        "columns_desktop": 5,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "arrow_position": "inline",
-        "arrow_style": "icon",
-        "color_scheme": "background-1",
-        "box_align": "bottom",
-        "text_alignment": "center",
-        "show_text_box": false,
-        "imgcolor_scheme": "",
-        "heading": "",
-        "sub_heading": "",
-        "button_label": "",
-        "button_link": "",
-        "link_window": true,
-        "button_style_secondary": "link",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     },
     "image_with_text_AbaJVU": {
@@ -939,9 +940,9 @@
   "order": [
     "3ec26328-39f6-4397-b03f-f6603259aac8",
     "text_with_icons_qampc9",
+    "featured_collection_PPjXEe",
     "collection_list_te7iqY",
     "video_Qn3ddY",
-    "featured_collection_PPjXEe",
     "image_with_text_AbaJVU",
     "logo_bar_qKXHMP",
     "image_banner_hi3iWk",
