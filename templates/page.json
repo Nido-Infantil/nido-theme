@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -29,6 +38,7 @@
         "heading_TkGHrn",
         "text_ejAwai"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "desktop_content_position": "left",
@@ -45,7 +55,7 @@
           "type": "text",
           "settings": {
             "field_label": "",
-            "label_placeholder": "Name",
+            "label_placeholder": "Nome",
             "required_field": false
           }
         },
@@ -61,7 +71,7 @@
           "type": "phone",
           "settings": {
             "field_label": "",
-            "label_placeholder": "Phone",
+            "label_placeholder": "Telefone",
             "required_field": true
           }
         },
@@ -69,7 +79,7 @@
           "type": "message",
           "settings": {
             "field_label": "",
-            "label_placeholder": "Message",
+            "label_placeholder": "Mensagem",
             "required_field": false
           }
         }
@@ -80,8 +90,9 @@
         "phone_femrjn",
         "message_a7GJ9W"
       ],
+      "disabled": true,
       "settings": {
-        "title": "Contact form",
+        "title": "Formulário de contato",
         "heading_size": "h0",
         "description": "",
         "description_style": "body",
