@@ -189,17 +189,6 @@
         "padding_bottom": 60
       }
     },
-    "quick_order_list_88r8Ue": {
-      "type": "quick-order-list",
-      "settings": {
-        "show_image": true,
-        "show_sku": true,
-        "hide_quick": true,
-        "color_scheme": "inverse",
-        "padding_top": 0,
-        "padding_bottom": 20
-      }
-    },
     "image_with_text_rrbNhL": {
       "type": "image-with-text",
       "blocks": {
@@ -350,7 +339,6 @@
   "order": [
     "main",
     "af876803-5516-4474-bcf6-6f1357ed5cc4",
-    "quick_order_list_88r8Ue",
     "image_with_text_rrbNhL",
     "1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf",
     "related-products"
