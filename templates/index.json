@@ -12,6 +12,37 @@
     "3ec26328-39f6-4397-b03f-f6603259aac8": {
       "type": "slideshow",
       "blocks": {
+        "slide_L3rpGm": {
+          "type": "slide",
+          "settings": {
+            "pagination_text": "",
+            "image": "shopify://shop_images/04_-_Acessorios.png",
+            "mobile_image": "shopify://shop_images/MOBILE_04_-_Acessorios.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h0",
+            "offer__text": "",
+            "mini_heading_style": "outline",
+            "subheading": "<p></p><p></p>",
+            "description": "",
+            "text_style": "body",
+            "button_label": "",
+            "link": "shopify://collections/acessorios",
+            "show_icon": false,
+            "link_window": true,
+            "view_all_style": "link",
+            "button_label2": "",
+            "link2": "",
+            "show_icon2": false,
+            "link_window2": true,
+            "view_all_style2": "solid",
+            "box_align": "top-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_CcDE8G": {
           "type": "slide",
           "settings": {
@@ -74,6 +105,37 @@
             "text_alignment_mobile": "left"
           }
         },
+        "slide_A349PK": {
+          "type": "slide",
+          "settings": {
+            "pagination_text": "",
+            "image": "shopify://shop_images/05_-_Dia_das_maes.png",
+            "mobile_image": "shopify://shop_images/MOBILE_05_-_Dia_das_maes.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h0",
+            "offer__text": "",
+            "mini_heading_style": "link",
+            "subheading": "",
+            "description": "",
+            "text_style": "body",
+            "button_label": "",
+            "link": "shopify://collections/all",
+            "show_icon": false,
+            "link_window": false,
+            "view_all_style": "link",
+            "button_label2": "",
+            "link2": "",
+            "show_icon2": false,
+            "link_window2": false,
+            "view_all_style2": "solid",
+            "box_align": "top-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_8TtXBG": {
           "type": "slide",
           "settings": {
@@ -107,8 +169,10 @@
         }
       },
       "block_order": [
+        "slide_L3rpGm",
         "slide_CcDE8G",
         "template--16391993720889__3ec26328-39f6-4397-b03f-f6603259aac8-slide-1",
+        "slide_A349PK",
         "slide_8TtXBG"
       ],
       "settings": {
