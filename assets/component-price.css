@@ -52,11 +52,15 @@
   top: 15px;
   left: 15px;
 }
+.product-price-pix{
+  color: #05be70 !important;
+  font-weight: 600;
+}
 .price--on-sale .price__sale {
   display: flex;
   gap: 0;
-  align-items: center;
-  flex-direction: row;
+  align-items: left;
+  flex-direction: column-reverse;
   flex-wrap: wrap;
   justify-content: var(--product-card-text-alignment);
 }

@@ -79,8 +79,8 @@
     </div>
 		<div class="price__sale">
 			<span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
-			<span class="price-item price-item--sale price-item--last">
-        {{ money_price  }}
+			<span class="price-item price-item--sale price-item--last product-price-pix">
+        {{ money_price  }} no <strong>PIX</strong>
       </span>
 			{%- if money_price != compare_at_price %}
 				<span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>

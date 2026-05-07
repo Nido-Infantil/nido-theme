@@ -142,12 +142,12 @@
                                   </s>
                                 </div>
                               {%- else -%}
-                                <span class="product-option price-original">
+                                <span class="product-option price-original product-price-pix">
                                   {%- if settings.currency_code_enabled -%}
                                     {{ item.original_line_price | times: settings.discount_pix_times | money_with_currency }}
                                   {%- else -%}
                                     {{ item.original_line_price | times: settings.discount_pix_times | money }}
-                                  {%- endif -%}
+                                  {%- endif -%} no <strong>PIX</strong>
                                 </span>
                               {%- endif -%}
 
@@ -354,7 +354,7 @@
                   {{ cart.total_price | times: settings.discount_pix_times | money_with_currency }}
                 {%- else -%}
                   {{ cart.total_price | times: settings.discount_pix_times | money }}
-                {%- endif -%}
+                {%- endif -%} no <strong>PIX</strong>
               </p>
             </div>
           </div>
