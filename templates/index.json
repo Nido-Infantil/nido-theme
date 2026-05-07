@@ -836,6 +836,74 @@
         "padding_top": 60,
         "padding_bottom": 0
       }
+    },
+    "collapsible_content_DM9CXr": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_c6yTVE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_eVVh8c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_YRKPYw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_cNpQ36": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_c6yTVE",
+        "collapsible_row_eVVh8c",
+        "collapsible_row_YRKPYw",
+        "collapsible_row_cNpQ36"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "enable_sticky_part": false,
+        "caption": "",
+        "mini_heading_style": "link",
+        "heading": "Collapsible content",
+        "heading_position": "coll_next",
+        "heading_size": "h1",
+        "description": "",
+        "button_label_1": "",
+        "button_link_1": "",
+        "view_all_style": "solid",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "",
+        "secondary_background": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -851,6 +919,7 @@
     "testimonial_n68k3b",
     "lookbook_zANTjP",
     "scrolling_bar_AT7Vxy",
-    "8a12a3a7-a50d-4029-898d-88427762a9db"
+    "8a12a3a7-a50d-4029-898d-88427762a9db",
+    "collapsible_content_DM9CXr"
   ]
 }
