@@ -48,9 +48,7 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [
-        "#CartDrawer-Checkout{display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "full-width": false,
         "logo_position": "left-middle",

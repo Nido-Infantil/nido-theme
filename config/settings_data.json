@@ -1995,5 +1995,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#CartDrawer-Checkout {display: none !important;}"
+    ]
   }
 }
