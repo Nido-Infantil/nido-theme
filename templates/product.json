@@ -1,1 +1,358 @@
-{"sections":{"main":{"type":"main-product","blocks":{"65491c3f-abb9-4bd5-9728-1b439626a36f":{"type":"sku","settings":{"text_style":"body"}},"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button","show_colorswatch":true}},"4cd2d0c0-c935-4cc8-a56e-fd40a599db48":{"type":"stock_countdown","settings":{"max_stock":150,"limited_stock_cut_off":10,"limited_stock_message":"Only {stock_number} units left","instock_message":"In stock ({stock_number} units), ready to be shipped","continue_selling_message":"Re-stocking soon","limited_stock_color":"#ff0000","in_stock_color":"#008a00","continue_selling_color":"#ff0000"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":false,"show_gift_card_recipient":false,"atc_btn_style":"solid"}},"description":{"type":"description","settings":{"show_readmore":false}},"d1d28115-3998-4f61-8e93-3974d09fe1a0":{"type":"share_button","disabled":true,"settings":{"share_facebook":true,"share_twitter":true,"share_pinterest":true}},"complementary_CBHxPH":{"type":"complementary","settings":{"block_heading":"Pairs well with","heading_size":"h2","make_collapsible_row":true,"icon":"price_tag","product_list_limit":10,"products_per_page":4,"image_ratio":"square","show_secondary_image":false,"display_product_type1":false,"show_vendor":false,"enable_quick_add":true}},"frete_no_produto_shipping_calc_9fgzXb":{"type":"shopify:\/\/apps\/frete-no-produto\/blocks\/shipping_calc\/86063d43-a133-4046-bbed-b9bfb712ccba","settings":{"shipping_calculator":true,"show_localization":true,"background_color_container":"rgba(0,0,0,0)","background_header":"#fafafa","background_local":"#fafafa","btnshipping":"#000000","color_text":"#ffffff","color_shipping":"#51a559","color_ship_name":"#000000","color_shipping_date":"#000000","padding_inner":0,"padding_external":12,"space_top":0,"height_input":45,"border_radius":6,"text_btn":"CONSULTAR","text_title":"Calcule o Frete","placeholder":"Digite seu CEP","pickup":"","dont_show_products":[],"show_dont_know_cep":false,"dont_know_cep_text":"Não sei meu CEP"}}},"block_order":["65491c3f-abb9-4bd5-9728-1b439626a36f","title","price","variant_picker","4cd2d0c0-c935-4cc8-a56e-fd40a599db48","quantity_selector","buy_buttons","description","d1d28115-3998-4f61-8e93-3974d09fe1a0","complementary_CBHxPH","frete_no_produto_shipping_calc_9fgzXb"],"settings":{"enable_full_width":false,"enable_sticky_info":true,"media_size":"large","constrain_to_viewport":true,"media_fit":"cover","gallery_layout":"columns","media_position":"left","image_zoom":"lightbox","enable_border":false,"hide_variants":false,"enable_video_looping":false,"shareb":true,"enable_compact":false,"color_scheme":"background-1","mobile_thumbnails":"hide","padding_top":0,"padding_bottom":0}},"af876803-5516-4474-bcf6-6f1357ed5cc4":{"type":"product-tab","blocks":{"template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-1":{"type":"tab","settings":{"heading":"Toys for All Ages","tabdesc":"<p>Step into a world of imagination and wonder with our enchanting collection of toys! From classic favorites to the latest trends, we have something for every child and the young at heart. Ignite their creativity with interactive games, spark their curiosity with educational toys, or simply let them unleash their inner superhero with action-packed playsets. Dive into our Toy Kingdom and discover endless possibilities for fun and laughter. Let the adventure begin!<\/p>","show_image_banner":false}},"template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-2":{"type":"tab","settings":{"heading":"Details","tabdesc":"<p>Welcome to our Toy Emporium, where the magic of play knows no bounds! Explore aisles brimming with joyous wonders and captivating delights, each ready to ignite the imagination of children and adults alike. From cuddly companions to thrilling gadgets, our curated selection promises something special for every little dreamer. Let their creativity soar as they embark on adventures, build new worlds, and create cherished memories. Join us in celebrating the timeless joy of play at our Toy Emporium, where every moment is a journey into the extraordinary!<\/p>","show_image_banner":false}},"tab_UF4ndB":{"type":"tab","settings":{"heading":"description","tabdesc":"","show_image_banner":false}}},"block_order":["template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-1","template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-2","tab_UF4ndB"],"settings":{"color_scheme":"scheme-abe3bc68-5409-41dd-abcf-8f9ac474947a","padding_top":40,"padding_bottom":60}},"quick_order_list_88r8Ue":{"type":"quick-order-list","settings":{"show_image":true,"show_sku":true,"hide_quick":true,"color_scheme":"inverse","padding_top":0,"padding_bottom":20}},"image_with_text_rrbNhL":{"type":"image-with-text","blocks":{"heading_aCXGyF":{"type":"heading","settings":{"subheading":"","heading":"<strong>Countdown To Joy Discover Your Child’s Next Favorite Toy<\/strong>","heading_size":"h2"}},"text_eJRfpW":{"type":"text","settings":{"text":"<p>✨ Embark on a world of wonder and delight with our most loved toy collection! Whether it's a cuddly companion, a learning activity, or a playful gadget, every product is chosen to spark creativity and endless smiles.<\/p><p>🌈 From first-time giggles to long-lasting play, there's magic in every box. Don’t miss out — our limited-time showcase is ending soon!<\/p>","text_style":"body"}},"date_FAFi4L":{"type":"date","settings":{"wb_enddate":"2026\/08\/22"}},"button_QyYE7F":{"type":"button","settings":{"button_label":"Explore Playtime Picks","button_link":"","link_window":true,"view_all_style":"solid"}}},"block_order":["heading_aCXGyF","text_eJRfpW","date_FAFi4L","button_QyYE7F"],"settings":{"full_width":false,"enable_full_width_bg":false,"full_img_radius":false,"banner_offer_text":"","banner_offer_text_color":"#ffffff","height":"adapt","desktop_image_width":"small","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","color_scheme":"inverse","secondary_background":true,"image_behavior":"none","mobile_content_alignment":"left","padding_top":0,"padding_bottom":0}},"1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf":{"type":"custom-text","blocks":{"template--16392001191993__1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf-text-1":{"type":"text","settings":{"storytitle":"🎠 <em>Whimsy & Wonder Toys<\/em>","storydesc":"<p>Step into a wonderland of play where every toy holds a promise of adventure! Explore our vast collection of toys designed to ignite imagination and fuel endless fun. From classic favorites to the latest trends, there's something for every child to cherish.<\/p>","showtext":"Explore Now","link":"","link_window":true,"view_all_style":"solid","color_cmenu":"inverse"}},"template--16392001191993__1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf-text-2":{"type":"text","settings":{"storytitle":"🚗 <em>Adventure Zone<\/em>","storydesc":"<p>Step into Playtime Paradise and enter a world where play is paramount and imagination reigns supreme! With a vast array of toys to choose from, every child can find their perfect match.  Whether they're racing cars around tracks.<\/p>","showtext":"Start Playing","link":"","link_window":true,"view_all_style":"solid","color_cmenu":"inverse"}},"text_96nX8w":{"type":"text","settings":{"storytitle":"🧸 <em>Magic Toy Vault<\/em>","storydesc":"<p>Welcome to a realm where creativity knows no bounds! Dive into our curated collection of toys designed to spark joy, learning, and adventure. From timeless classics to the latest innovations, there's something for every age and interest.<\/p>","showtext":"Browse Collection","link":"","link_window":true,"view_all_style":"solid","color_cmenu":"inverse"}},"text_qmtJfY":{"type":"text","settings":{"storytitle":"🎯 <em>Best for Every Mood<\/em>","storydesc":"<p>Enter a world filled with laughter, excitement, and endless possibilities! Our toy kingdom is brimming with treasures waiting to be discovered. Whether it's a cuddly companion, an action-packed adventure, or a brain-teasing puzzle, we have it all.<\/p>","showtext":"See Joyful Picks","link":"","link_window":true,"view_all_style":"solid","color_cmenu":"inverse"}}},"block_order":["template--16392001191993__1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf-text-1","template--16392001191993__1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf-text-2","text_96nX8w","text_qmtJfY"],"settings":{"title":"<strong>Adventure Awaits in Every Toy Box<\/strong>","heading_size":"h1","description":"<p>From thrilling stories to educational fun, our toys turn everyday play into extraordinary adventures. Let their imagination run wild!<\/p>","description_style":"body","color_cmainmenu":"scheme-abe3bc68-5409-41dd-abcf-8f9ac474947a","padding_top":60,"padding_bottom":60}},"related-products":{"type":"related-products","settings":{"title":"<strong>Talvez você goste.<\/strong>","heading_size":"h1","description":"","description_style":"body","products_to_show":10,"columns_desktop":5,"show__slider":true,"arrow_position":"top","arrow_style":"button","color_scheme":"background-1","columns_mobile":"2","swipe_on_mobile":true,"padding_top":60,"padding_bottom":0}}},"order":["main","af876803-5516-4474-bcf6-6f1357ed5cc4","quick_order_list_88r8Ue","image_with_text_rrbNhL","1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "65491c3f-abb9-4bd5-9728-1b439626a36f": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_colorswatch": true
+          }
+        },
+        "4cd2d0c0-c935-4cc8-a56e-fd40a599db48": {
+          "type": "stock_countdown",
+          "settings": {
+            "max_stock": 150,
+            "limited_stock_cut_off": 10,
+            "limited_stock_message": "Only {stock_number} units left",
+            "instock_message": "In stock ({stock_number} units), ready to be shipped",
+            "continue_selling_message": "Re-stocking soon",
+            "limited_stock_color": "#ff0000",
+            "in_stock_color": "#008a00",
+            "continue_selling_color": "#ff0000"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "atc_btn_style": "solid"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_readmore": false
+          }
+        },
+        "d1d28115-3998-4f61-8e93-3974d09fe1a0": {
+          "type": "share_button",
+          "disabled": true,
+          "settings": {
+            "share_facebook": true,
+            "share_twitter": true,
+            "share_pinterest": true
+          }
+        },
+        "complementary_CBHxPH": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "heading_size": "h2",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 4,
+            "image_ratio": "square",
+            "show_secondary_image": false,
+            "display_product_type1": false,
+            "show_vendor": false,
+            "enable_quick_add": true
+          }
+        },
+        "frete_no_produto_shipping_calc_9fgzXb": {
+          "type": "shopify://apps/frete-no-produto/blocks/shipping_calc/86063d43-a133-4046-bbed-b9bfb712ccba",
+          "settings": {
+            "shipping_calculator": true,
+            "show_localization": true,
+            "background_color_container": "rgba(0,0,0,0)",
+            "background_header": "#fafafa",
+            "background_local": "#fafafa",
+            "btnshipping": "#000000",
+            "color_text": "#ffffff",
+            "color_shipping": "#51a559",
+            "color_ship_name": "#000000",
+            "color_shipping_date": "#000000",
+            "padding_inner": 0,
+            "padding_external": 12,
+            "space_top": 0,
+            "height_input": 45,
+            "border_radius": 6,
+            "text_btn": "CONSULTAR",
+            "text_title": "Calcule o Frete",
+            "placeholder": "Digite seu CEP",
+            "pickup": "",
+            "dont_show_products": [],
+            "show_dont_know_cep": false,
+            "dont_know_cep_text": "Não sei meu CEP"
+          }
+        }
+      },
+      "block_order": [
+        "65491c3f-abb9-4bd5-9728-1b439626a36f",
+        "title",
+        "price",
+        "variant_picker",
+        "4cd2d0c0-c935-4cc8-a56e-fd40a599db48",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "d1d28115-3998-4f61-8e93-3974d09fe1a0",
+        "complementary_CBHxPH",
+        "frete_no_produto_shipping_calc_9fgzXb"
+      ],
+      "settings": {
+        "enable_full_width": false,
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "columns",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "enable_border": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "shareb": true,
+        "enable_compact": false,
+        "color_scheme": "background-1",
+        "mobile_thumbnails": "hide",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "af876803-5516-4474-bcf6-6f1357ed5cc4": {
+      "type": "product-tab",
+      "blocks": {
+        "template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-1": {
+          "type": "tab",
+          "settings": {
+            "heading": "Toys for All Ages",
+            "tabdesc": "<p>Step into a world of imagination and wonder with our enchanting collection of toys! From classic favorites to the latest trends, we have something for every child and the young at heart. Ignite their creativity with interactive games, spark their curiosity with educational toys, or simply let them unleash their inner superhero with action-packed playsets. Dive into our Toy Kingdom and discover endless possibilities for fun and laughter. Let the adventure begin!</p>",
+            "show_image_banner": false
+          }
+        },
+        "template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-2": {
+          "type": "tab",
+          "settings": {
+            "heading": "Details",
+            "tabdesc": "<p>Welcome to our Toy Emporium, where the magic of play knows no bounds! Explore aisles brimming with joyous wonders and captivating delights, each ready to ignite the imagination of children and adults alike. From cuddly companions to thrilling gadgets, our curated selection promises something special for every little dreamer. Let their creativity soar as they embark on adventures, build new worlds, and create cherished memories. Join us in celebrating the timeless joy of play at our Toy Emporium, where every moment is a journey into the extraordinary!</p>",
+            "show_image_banner": false
+          }
+        },
+        "tab_UF4ndB": {
+          "type": "tab",
+          "settings": {
+            "heading": "description",
+            "tabdesc": "",
+            "show_image_banner": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-1",
+        "template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-2",
+        "tab_UF4ndB"
+      ],
+      "settings": {
+        "color_scheme": "scheme-abe3bc68-5409-41dd-abcf-8f9ac474947a",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
+    "quick_order_list_88r8Ue": {
+      "type": "quick-order-list",
+      "settings": {
+        "show_image": true,
+        "show_sku": true,
+        "hide_quick": true,
+        "color_scheme": "inverse",
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_rrbNhL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aCXGyF": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "<strong>Countdown To Joy Discover Your Child’s Next Favorite Toy</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_eJRfpW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✨ Embark on a world of wonder and delight with our most loved toy collection! Whether it's a cuddly companion, a learning activity, or a playful gadget, every product is chosen to spark creativity and endless smiles.</p><p>🌈 From first-time giggles to long-lasting play, there's magic in every box. Don’t miss out — our limited-time showcase is ending soon!</p>",
+            "text_style": "body"
+          }
+        },
+        "date_FAFi4L": {
+          "type": "date",
+          "settings": {
+            "wb_enddate": "2026/08/22"
+          }
+        },
+        "button_QyYE7F": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Playtime Picks",
+            "button_link": "",
+            "link_window": true,
+            "view_all_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aCXGyF",
+        "text_eJRfpW",
+        "date_FAFi4L",
+        "button_QyYE7F"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_full_width_bg": false,
+        "full_img_radius": false,
+        "banner_offer_text": "",
+        "banner_offer_text_color": "#ffffff",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "color_scheme": "inverse",
+        "secondary_background": true,
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf": {
+      "type": "custom-text",
+      "blocks": {
+        "template--16392001191993__1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf-text-1": {
+          "type": "text",
+          "settings": {
+            "storytitle": "🎠 <em>Whimsy & Wonder Toys</em>",
+            "storydesc": "<p>Step into a wonderland of play where every toy holds a promise of adventure! Explore our vast collection of toys designed to ignite imagination and fuel endless fun. From classic favorites to the latest trends, there's something for every child to cherish.</p>",
+            "showtext": "Explore Now",
+            "link": "",
+            "link_window": true,
+            "view_all_style": "solid",
+            "color_cmenu": "inverse"
+          }
+        },
+        "template--16392001191993__1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf-text-2": {
+          "type": "text",
+          "settings": {
+            "storytitle": "🚗 <em>Adventure Zone</em>",
+            "storydesc": "<p>Step into Playtime Paradise and enter a world where play is paramount and imagination reigns supreme! With a vast array of toys to choose from, every child can find their perfect match.  Whether they're racing cars around tracks.</p>",
+            "showtext": "Start Playing",
+            "link": "",
+            "link_window": true,
+            "view_all_style": "solid",
+            "color_cmenu": "inverse"
+          }
+        },
+        "text_96nX8w": {
+          "type": "text",
+          "settings": {
+            "storytitle": "🧸 <em>Magic Toy Vault</em>",
+            "storydesc": "<p>Welcome to a realm where creativity knows no bounds! Dive into our curated collection of toys designed to spark joy, learning, and adventure. From timeless classics to the latest innovations, there's something for every age and interest.</p>",
+            "showtext": "Browse Collection",
+            "link": "",
+            "link_window": true,
+            "view_all_style": "solid",
+            "color_cmenu": "inverse"
+          }
+        },
+        "text_qmtJfY": {
+          "type": "text",
+          "settings": {
+            "storytitle": "🎯 <em>Best for Every Mood</em>",
+            "storydesc": "<p>Enter a world filled with laughter, excitement, and endless possibilities! Our toy kingdom is brimming with treasures waiting to be discovered. Whether it's a cuddly companion, an action-packed adventure, or a brain-teasing puzzle, we have it all.</p>",
+            "showtext": "See Joyful Picks",
+            "link": "",
+            "link_window": true,
+            "view_all_style": "solid",
+            "color_cmenu": "inverse"
+          }
+        }
+      },
+      "block_order": [
+        "template--16392001191993__1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf-text-1",
+        "template--16392001191993__1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf-text-2",
+        "text_96nX8w",
+        "text_qmtJfY"
+      ],
+      "settings": {
+        "title": "<strong>Adventure Awaits in Every Toy Box</strong>",
+        "heading_size": "h1",
+        "description": "<p>From thrilling stories to educational fun, our toys turn everyday play into extraordinary adventures. Let their imagination run wild!</p>",
+        "description_style": "body",
+        "color_cmainmenu": "scheme-abe3bc68-5409-41dd-abcf-8f9ac474947a",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "<strong>Talvez você goste.</strong>",
+        "heading_size": "h1",
+        "description": "",
+        "description_style": "body",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "show__slider": true,
+        "arrow_position": "top",
+        "arrow_style": "button",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "main",
+    "af876803-5516-4474-bcf6-6f1357ed5cc4",
+    "quick_order_list_88r8Ue",
+    "image_with_text_rrbNhL",
+    "1cf3e0fe-df2b-4d6b-90fc-6cf1777d75cf",
+    "related-products"
+  ]
+}
