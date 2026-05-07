@@ -139,6 +139,20 @@
         }
       }
     ]
+  },{
+    "name": "Configurações PIX",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Desconto"
+      },
+      {
+        "type": "text",
+        "id": "discount_pix_times",
+        "label": "Desconto PIX (exemplo: 0.95 = 5% de desconto)",
+        "default": "0.95"
+      }
+    ]
   },
   {
     "name": "t:settings_schema.typography.name",

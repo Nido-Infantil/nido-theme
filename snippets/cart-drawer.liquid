@@ -125,9 +125,9 @@
                                   </span>
                                   <span class="price price--end">
                                     {%- if settings.currency_code_enabled -%}
-                                      {{ item.final_line_price | money_with_currency }}
+                                      {{ item.final_line_price | times: settings.discount_pix_times | money_with_currency }}
                                     {%- else -%}
-                                      {{ item.final_line_price | money }}
+                                      {{ item.final_line_price | times: settings.discount_pix_times | money }}
                                     {%- endif -%}
                                   </span>
                                    <span class="visually-hidden">
@@ -144,9 +144,9 @@
                               {%- else -%}
                                 <span class="product-option price-original">
                                   {%- if settings.currency_code_enabled -%}
-                                    {{ item.original_line_price | money_with_currency }}
+                                    {{ item.original_line_price | times: settings.discount_pix_times | money_with_currency }}
                                   {%- else -%}
-                                    {{ item.original_line_price | money }}
+                                    {{ item.original_line_price | times: settings.discount_pix_times | money }}
                                   {%- endif -%}
                                 </span>
                               {%- endif -%}
@@ -155,9 +155,9 @@
                                 <div class="unit-price caption">
                                   <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
                                   {%- if settings.currency_code_enabled -%}
-                                    {{ item.variant.unit_price | money_with_currency }}
+                                    {{ item.variant.unit_price | times: settings.discount_pix_times | money_with_currency }}
                                   {%- else -%}
-                                    {{ item.variant.unit_price | money }}
+                                    {{ item.variant.unit_price | times: settings.discount_pix_times | money }}
                                   {%- endif -%}
                                   <span aria-hidden="true">/</span>
                                   <span class="visually-hidden"
@@ -351,9 +351,9 @@
               <span class="totals__subtotal">{{ 'sections.cart.subtotal' | t }} ({{ cart.item_count }})</span>
               <p class="product-option price-original">
                 {%- if settings.currency_code_enabled -%}
-                  {{ cart.total_price | money_with_currency }}
+                  {{ cart.total_price | times: settings.discount_pix_times | money_with_currency }}
                 {%- else -%}
-                  {{ cart.total_price | money }}
+                  {{ cart.total_price | times: settings.discount_pix_times | money }}
                 {%- endif -%}
               </p>
             </div>
