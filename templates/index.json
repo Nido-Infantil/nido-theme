@@ -254,7 +254,7 @@
     "featured_collection_PPjXEe": {
       "type": "featured-collection",
       "settings": {
-        "sec_full_width": false,
+        "sec_full_width": true,
         "miniheading": "",
         "mini_heading_style": "button",
         "title": "<strong>Kits magnéticos - Nido</strong>",
@@ -265,8 +265,8 @@
         "description_style": "subtitle",
         "collection": "kits-magneticos",
         "product_list": [],
-        "products_to_show": 8,
-        "columns_desktop": 3,
+        "products_to_show": 4,
+        "columns_desktop": 2,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
@@ -766,23 +766,23 @@
     "lookbook_zANTjP": {
       "type": "lookbook",
       "blocks": {
-        "text_RLbRQt": {
+        "text_gCnwy7": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/ComboBege.webp",
-            "active_color": "#cccccc",
-            "wblooktop_1": 40,
-            "wblookleft_1": 44,
-            "product_1": "",
-            "wblooktop_2": 93,
-            "wblookleft_2": 40,
-            "product_2": "",
-            "wblooktop_3": 70,
-            "wblookleft_3": 80,
+            "image": "shopify://shop_images/777181ca4ea669f9f8ce0de630b22816.jpg",
+            "active_color": "#f5f5f5",
+            "wblooktop_1": 45,
+            "wblookleft_1": 55,
+            "product_1": "combo-bege-lousa-magnetica-bege-kit-alfabeto-kit-matematico-giz",
+            "wblooktop_2": 36,
+            "wblookleft_2": 24,
+            "product_2": "moldura-flower-nido",
+            "wblooktop_3": 58,
+            "wblookleft_3": 91,
             "product_3": "",
-            "wblooktop_4": 75,
-            "wblookleft_4": 23,
-            "product_4": ""
+            "wblooktop_4": 51,
+            "wblookleft_4": 80,
+            "product_4": "porta-giz-lavavel-infantil-nido"
           }
         },
         "text_Qce6xW": {
@@ -792,7 +792,7 @@
             "active_color": "#f5f5f5",
             "wblooktop_1": 87,
             "wblookleft_1": 15,
-            "product_1": "",
+            "product_1": "kit-magnetico-fundo-do-mar",
             "wblooktop_2": 89,
             "wblookleft_2": 87,
             "product_2": "",
@@ -801,33 +801,33 @@
             "product_3": "",
             "wblooktop_4": 72,
             "wblookleft_4": 83,
-            "product_4": ""
+            "product_4": "combo-verde-lousa-magnetica-verde-kit-alfabeto-kit-matematico-giz"
           }
         },
-        "text_gCnwy7": {
+        "text_RLbRQt": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/nido_450x450_4146db7e-63de-42a1-9859-b4bdfb5b7c55.jpg",
-            "active_color": "#f5f5f5",
-            "wblooktop_1": 60,
-            "wblookleft_1": 13,
-            "product_1": "combo-azul-lousa-magnetica-verde-kit-alfabeto-kit-matematico-giz",
-            "wblooktop_2": 67,
-            "wblookleft_2": 60,
-            "product_2": "",
-            "wblooktop_3": 58,
-            "wblookleft_3": 91,
-            "product_3": "",
-            "wblooktop_4": 26,
-            "wblookleft_4": 30,
+            "image": "shopify://shop_images/ComboBege.webp",
+            "active_color": "#cccccc",
+            "wblooktop_1": 40,
+            "wblookleft_1": 44,
+            "product_1": "combo-bege-lousa-magnetica-bege-kit-alfabeto-kit-matematico-giz",
+            "wblooktop_2": 93,
+            "wblookleft_2": 40,
+            "product_2": "kit-fazendinha",
+            "wblooktop_3": 70,
+            "wblookleft_3": 80,
+            "product_3": "giz-lavavel-infantil-nido-criatividade-sem-sujeira",
+            "wblooktop_4": 75,
+            "wblookleft_4": 23,
             "product_4": ""
           }
         }
       },
       "block_order": [
-        "text_RLbRQt",
+        "text_gCnwy7",
         "text_Qce6xW",
-        "text_gCnwy7"
+        "text_RLbRQt"
       ],
       "settings": {
         "full_width": false,
@@ -918,6 +918,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "none",
+            "custom_image": "shopify://shop_images/MOBILE_02_-_Combos_Promocionais_2ed468e9-8490-43d7-838a-acb4fcaf0332.png",
             "row_content": "",
             "page": ""
           }
@@ -947,6 +948,7 @@
         "collapsible_row_YRKPYw",
         "collapsible_row_cNpQ36"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "enable_sticky_part": false,

@@ -156,32 +156,24 @@
         "template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-1": {
           "type": "tab",
           "settings": {
-            "heading": "Toys for All Ages",
-            "tabdesc": "<p>Step into a world of imagination and wonder with our enchanting collection of toys! From classic favorites to the latest trends, we have something for every child and the young at heart. Ignite their creativity with interactive games, spark their curiosity with educational toys, or simply let them unleash their inner superhero with action-packed playsets. Dive into our Toy Kingdom and discover endless possibilities for fun and laughter. Let the adventure begin!</p>",
-            "show_image_banner": false
+            "heading": "Benefícios",
+            "tabdesc": "<p><br/><strong>Desenvolvimento que acontece brincando. </strong>A Lousa Magnética Nido foi criada para transformar momentos simples em experiências de aprendizado, criatividade e autonomia.Inspirada na abordagem Montessori, ela estimula a imaginação, coordenação motora, concentração e alfabetização de forma leve e natural — sem telas e sem excesso de estímulos. Um espaço pensado para a criança criar, explorar e aprender todos os dias.<br/><br/><strong><br/></strong><br/></p>",
+            "show_image_banner": false,
+            "image": "shopify://shop_images/MOBILE_Mobile_heor2.png"
           }
         },
         "template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-2": {
           "type": "tab",
           "settings": {
-            "heading": "Details",
-            "tabdesc": "<p>Welcome to our Toy Emporium, where the magic of play knows no bounds! Explore aisles brimming with joyous wonders and captivating delights, each ready to ignite the imagination of children and adults alike. From cuddly companions to thrilling gadgets, our curated selection promises something special for every little dreamer. Let their creativity soar as they embark on adventures, build new worlds, and create cherished memories. Join us in celebrating the timeless joy of play at our Toy Emporium, where every moment is a journey into the extraordinary!</p>",
-            "show_image_banner": false
-          }
-        },
-        "tab_UF4ndB": {
-          "type": "tab",
-          "settings": {
-            "heading": "description",
-            "tabdesc": "",
+            "heading": "Detalhes do produto",
+            "tabdesc": "<p>A <strong>Lousa Magnética Nido</strong> foi desenvolvida para unir aprendizado, criatividade e segurança no dia a dia infantil. Utilizamos materiais cuidadosamente selecionados, com acabamento suave, peças em tamanho pensado para o manuseio infantil e experiência segura durante as brincadeiras. Os kits magnéticos estimulam coordenação motora, reconhecimento visual, alfabetização e imaginação de forma leve e natural — inspirados em uma infância com mais autonomia e menos telas.<br/><br/>• Materiais atóxicos  <br/>• Peças em tamanho seguro para crianças  <br/>• Superfície fácil de limpar  <br/>• Compatível com todos os Kits Nido  <br/>• Instalação simples sem furos  <br/>• Ideal para crianças a partir de 2 anos</p>",
             "show_image_banner": false
           }
         }
       },
       "block_order": [
         "template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-1",
-        "template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-2",
-        "tab_UF4ndB"
+        "template--19621258953026__af876803-5516-4474-bcf6-6f1357ed5cc4-tab-2"
       ],
       "settings": {
         "color_scheme": "scheme-abe3bc68-5409-41dd-abcf-8f9ac474947a",
@@ -195,26 +187,28 @@
         "heading_aCXGyF": {
           "type": "heading",
           "settings": {
-            "subheading": "",
-            "heading": "<strong>Countdown To Joy Discover Your Child’s Next Favorite Toy</strong>",
+            "subheading": "Menos tela. Mais infância.",
+            "heading": "NIDO",
             "heading_size": "h2"
           }
         },
         "text_eJRfpW": {
           "type": "text",
           "settings": {
-            "text": "<p>✨ Embark on a world of wonder and delight with our most loved toy collection! Whether it's a cuddly companion, a learning activity, or a playful gadget, every product is chosen to spark creativity and endless smiles.</p><p>🌈 From first-time giggles to long-lasting play, there's magic in every box. Don’t miss out — our limited-time showcase is ending soon!</p>",
+            "text": "<p>A Nido transforma paredes em espaços de aprendizado, criatividade e conexão em família.<br/><br/>Cada detalhe foi pensado para estimular autonomia, imaginação e desenvolvimento infantil de forma leve e natural — inspirada na abordagem Montessori.<br/><br/>Mais do que uma lousa, um ambiente para criar memórias todos os dias.</p>",
             "text_style": "body"
           }
         },
         "date_FAFi4L": {
           "type": "date",
+          "disabled": true,
           "settings": {
             "wb_enddate": "2026/08/22"
           }
         },
         "button_QyYE7F": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Explore Playtime Picks",
             "button_link": "",
@@ -232,6 +226,8 @@
       "settings": {
         "full_width": false,
         "enable_full_width_bg": false,
+        "image": "shopify://shop_images/usandofm.webp",
+        "secimage": "shopify://shop_images/Detalhecozinha.webp",
         "full_img_radius": false,
         "banner_offer_text": "",
         "banner_offer_text_color": "#ffffff",
@@ -306,6 +302,7 @@
         "text_96nX8w",
         "text_qmtJfY"
       ],
+      "disabled": true,
       "settings": {
         "title": "<strong>Adventure Awaits in Every Toy Box</strong>",
         "heading_size": "h1",
