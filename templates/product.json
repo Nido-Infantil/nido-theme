@@ -38,9 +38,9 @@
           "settings": {
             "max_stock": 150,
             "limited_stock_cut_off": 10,
-            "limited_stock_message": "Only {stock_number} units left",
-            "instock_message": "In stock ({stock_number} units), ready to be shipped",
-            "continue_selling_message": "Re-stocking soon",
+            "limited_stock_message": "",
+            "instock_message": "",
+            "continue_selling_message": "",
             "limited_stock_color": "#ff0000",
             "in_stock_color": "#008a00",
             "continue_selling_color": "#ff0000"
@@ -134,7 +134,7 @@
         "enable_full_width": false,
         "enable_sticky_info": true,
         "media_size": "large",
-        "constrain_to_viewport": true,
+        "constrain_to_viewport": false,
         "media_fit": "cover",
         "gallery_layout": "columns",
         "media_position": "left",
