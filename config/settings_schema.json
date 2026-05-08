@@ -153,6 +153,25 @@
         "default": "0.95"
       }
     ]
+  },{
+    "name": "Botão Whatsapp",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Whatsapp"
+      },
+      {
+        "type": "text",
+        "id": "number_whatsapp",
+        "label": "Numero de whatsapp (exemplo: 5511933192721)",
+        "default": "5511933192721"
+      },{
+        "type": "text",
+        "id": "text_whatsapp",
+        "label": "Mensagem Predefinida",
+        "default": "Olá! Vim do seu e-commerce e gostaria de mais informações sobre os produtos."
+      },
+    ]
   },
   {
     "name": "t:settings_schema.typography.name",
