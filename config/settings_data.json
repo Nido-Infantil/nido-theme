@@ -159,7 +159,7 @@
     "wb_cartnumber": "wb_shopqty",
     "show_cart_note": false,
     "wbenable_ship": true,
-    "wbmin_order": "BRL:499",
+    "wbmin_order": "BRL:550,00",
     "pcolor_scheme": "accent-2",
     "cart_drawer_collection": "combos-nido",
     "show_cartpayment": true,
