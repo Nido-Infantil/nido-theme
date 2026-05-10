@@ -172,6 +172,19 @@
         "default": "Olá! Vim do seu e-commerce e gostaria de mais informações sobre os produtos."
       },
     ]
+  },{
+    "name": "Configurações Parcelamento",
+    "settings": [
+      { 
+        "type": "header",
+        "content": "Numero de parcelas sem juros"
+      },{
+        "type" : "number",
+        "id": "number_installment",
+        "default": 3,
+        "label": "Escolha o numero de parcelas"
+      }
+    ]
   },
   {
     "name": "t:settings_schema.typography.name",

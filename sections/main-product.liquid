@@ -325,6 +325,9 @@
                       price_class: 'price--large'
                     -%}
                   </div>
+
+                  <span class="product-card-collection__installments"> ou <strong>{{ settings.number_installment }}x</strong> de <strong>{{ product.price |  divided_by: settings.number_installment | money }}</strong> sem juros</span>
+
                   {%- if product.quantity_price_breaks_configured? -%}
                     <div class="volume-pricing-note">
                       <span>{{ 'products.product.volume_pricing.note' | t }}</span>

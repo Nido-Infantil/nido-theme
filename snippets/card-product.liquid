@@ -255,6 +255,7 @@
             {%- endif -%}
           </div>
         </div>
+  
         <div class="wbproductdes card__content">
             {% comment %}<input type="hidden" name="id" class="product-variant-id" value="{{ card_product.selected_or_first_available_variant.id }}" disabled>{% endcomment %}
             {%- assign product_form_id = 'product-form-' | append: section.id | append: '-' | append: card_product.id -%}
@@ -640,6 +641,8 @@
             {%- assign product_form_id = 'product-form-' | append: section.id | append: '-' | append: card_product.id -%}
             {%- form 'product', card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
               <input type="hidden" name="id" class="product-variant-id" value="{{ card_product.selected_or_first_available_variant.id }}" disabled>
+
+              <span class="product-card-collection__installments"> ou <strong>{{ settings.number_installment }}x</strong> de <strong>{{ card_product.price |  divided_by: settings.number_installment | money }}</strong> sem juros</span>
               
                 {% if card_product.has_only_default_variant or show_variants == true %}
                   <button id="{{ product_form_id }}-submit" type="submit" name="add"
@@ -660,7 +663,7 @@
                     </span>
                   </button>
                   {% else %}
-                  <a href="{{ card_product.url }}" class="add-to-cart__submit button"><span>{{ 'products.product.select_option' | t }}</span></a>
+                  <a href="{{ card_product.url }}" class="add-to-cart__submit button"><span>Comprar</span></a>
               
                 {% endif %}
                 {%- endform -%}
@@ -670,6 +673,7 @@
           
         </div>
       </div>
+     
     </product-info>
   </div>
 {%- else -%}
