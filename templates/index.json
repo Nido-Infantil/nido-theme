@@ -401,7 +401,7 @@
         "link_window": true,
         "button_style_secondary": "link",
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -425,9 +425,9 @@
         "products_to_show": 6,
         "columns_desktop": 4,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "enable_desktop_slider": false,
-        "arrow_position": "inline",
+        "arrow_position": "bottom",
         "arrow_style": "icon",
         "color_scheme": "background-1",
         "box_align": "bottom",
