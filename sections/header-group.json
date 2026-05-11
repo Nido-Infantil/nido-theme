@@ -60,7 +60,7 @@
         "menu": "menu-de-topo",
         "menu_uppercase": false,
         "menu_alignment": "left",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "menuclick": "Hover",
         "show_menu_link": false,
         "color_schememenu": "background-2",
