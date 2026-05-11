@@ -387,7 +387,7 @@
         "show_view_all": false,
         "view_all_style": "link",
         "enable_desktop_slider": true,
-        "arrow_position": "top",
+        "arrow_position": "bottom",
         "arrow_style": "button",
         "color_scheme": "",
         "box_align": "top",
