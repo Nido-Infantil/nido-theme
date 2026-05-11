@@ -53,7 +53,7 @@
         "full-width": false,
         "logo_position": "left-middle",
         "menu_position": "left",
-        "menu_font": 18,
+        "menu_font": 14,
         "color_scheme": "background-1",
         "search_display_option": "show_stext",
         "show_acicon": "show_actext",
