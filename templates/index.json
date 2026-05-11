@@ -777,7 +777,7 @@
         "quote_KgmwhN"
       ],
       "settings": {
-        "sec_full_width": true,
+        "sec_full_width": false,
         "miniheading": "Deixe nossos clientes falarem por nós",
         "mini_heading_style": "outline",
         "title": "<strong>500+ Crianças com menos tempo de tela.</strong>",
