@@ -454,7 +454,7 @@
           "settings": {
             "collection": "combos-nido-1",
             "collection_list": [
-              "lousas-magneticas-nido"
+              "combos-nido-explore-todas-as-possibilidade-s"
             ]
           }
         },
@@ -462,21 +462,27 @@
           "type": "featured_collection",
           "settings": {
             "collection": "lousas-magneticas-nido",
-            "collection_list": []
+            "collection_list": [
+              "escolha-entre-quatro-cores-e-dois-tamanhos"
+            ]
           }
         },
         "featured_collection_gLKhJP": {
           "type": "featured_collection",
           "settings": {
             "collection": "kits-magneticos",
-            "collection_list": []
+            "collection_list": [
+              "mais-de-7-conjuntos-de-ima-para-completar-a-experiencia"
+            ]
           }
         },
         "featured_collection_rMc7iq": {
           "type": "featured_collection",
           "settings": {
             "collection": "acessorios",
-            "collection_list": []
+            "collection_list": [
+              "complete-a-experiencia-com-nossos-acessorios-nido"
+            ]
           }
         }
       },
