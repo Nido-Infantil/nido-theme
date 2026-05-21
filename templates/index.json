@@ -408,6 +408,7 @@
     },
     "featured_collection_QJgTGn": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "sec_full_width": false,
@@ -441,6 +442,83 @@
         "button_style_secondary": "link",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "collection_list_VzLbjA": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_777mrY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "combos-nido-1",
+            "collection_list": [
+              "lousas-magneticas-nido"
+            ]
+          }
+        },
+        "featured_collection_jN4Ea7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lousas-magneticas-nido",
+            "collection_list": []
+          }
+        },
+        "featured_collection_gLKhJP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kits-magneticos",
+            "collection_list": []
+          }
+        },
+        "featured_collection_rMc7iq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "acessorios",
+            "collection_list": []
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_777mrY",
+        "featured_collection_jN4Ea7",
+        "featured_collection_gLKhJP",
+        "featured_collection_rMc7iq"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "section_width": "container",
+        "miniheading": "Categorias",
+        "mini_heading_style": "button",
+        "title": "Conheça nossos Produtos.",
+        "heading_position": "coll_left",
+        "heading_size": "h0",
+        "heading_alignment": "left",
+        "description": "",
+        "description_style": "body",
+        "show_view_all": false,
+        "view_all_style": "link",
+        "show_icon": false,
+        "icon_style": "link",
+        "enable_collection_img_full": false,
+        "collection_card_direction": "column",
+        "content_position": "bellow_image",
+        "image_ratio": "square",
+        "image_position": "start",
+        "columns_desktop": 4,
+        "grid_style": "slider",
+        "rows_desktop": 1,
+        "arrow_position": "top",
+        "arrow_style": "button",
+        "spacing_grid_horizontal": 30,
+        "spacing_grid_vertical": 30,
+        "color_scheme": "",
+        "enable_hover": true,
+        "scoll_bg": "#ffffff",
+        "scoll_txt": "#000000",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -1019,6 +1097,7 @@
     "text_with_icons_qampc9",
     "featured_collection_FpmFxb",
     "featured_collection_QJgTGn",
+    "collection_list_VzLbjA",
     "video_Qn3ddY",
     "featured_collection_PPjXEe",
     "image_with_text_AbaJVU",
