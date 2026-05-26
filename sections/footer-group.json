@@ -31,7 +31,7 @@
         "03762e02-4a28-4d49-8f32-3d9128b1dc11": {
           "type": "newsletter",
           "settings": {
-            "heading": "Assintantes",
+            "heading": "Assinantes",
             "news_subtext": "<p>Receba novidades, lançamentos e condições especiais antes de todo mundo.</p>",
             "description_style": "body"
           }
