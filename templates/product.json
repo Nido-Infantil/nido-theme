@@ -88,33 +88,6 @@
             "show_vendor": false,
             "enable_quick_add": true
           }
-        },
-        "frete_no_produto_shipping_calc_9fgzXb": {
-          "type": "shopify://apps/frete-no-produto/blocks/shipping_calc/86063d43-a133-4046-bbed-b9bfb712ccba",
-          "settings": {
-            "shipping_calculator": true,
-            "show_localization": true,
-            "background_color_container": "rgba(0,0,0,0)",
-            "background_header": "#fafafa",
-            "background_local": "#fafafa",
-            "btnshipping": "#000000",
-            "color_text": "#ffffff",
-            "color_shipping": "#51a559",
-            "color_ship_name": "#000000",
-            "color_shipping_date": "#000000",
-            "padding_inner": 0,
-            "padding_external": 12,
-            "space_top": 0,
-            "height_input": 45,
-            "border_radius": 6,
-            "text_btn": "CONSULTAR",
-            "text_title": "Calcule o Frete",
-            "placeholder": "Digite seu CEP",
-            "pickup": "",
-            "dont_show_products": [],
-            "show_dont_know_cep": false,
-            "dont_know_cep_text": "Não sei meu CEP"
-          }
         }
       },
       "block_order": [
@@ -127,8 +100,7 @@
         "buy_buttons",
         "description",
         "d1d28115-3998-4f61-8e93-3974d09fe1a0",
-        "complementary_CBHxPH",
-        "frete_no_produto_shipping_calc_9fgzXb"
+        "complementary_CBHxPH"
       ],
       "settings": {
         "enable_full_width": false,
@@ -157,7 +129,7 @@
           "type": "tab",
           "settings": {
             "heading": "Benefícios",
-            "tabdesc": "<p><br/><strong>Desenvolvimento que acontece brincando. </strong>A Lousa Magnética Nido foi criada para transformar momentos simples em experiências de aprendizado, criatividade e autonomia.Inspirada na abordagem Montessori, ela estimula a imaginação, coordenação motora, concentração e alfabetização de forma leve e natural — sem telas e sem excesso de estímulos. Um espaço pensado para a criança criar, explorar e aprender todos os dias.<br/><br/><strong><br/></strong><br/></p>",
+            "tabdesc": "<p><br/><strong>Desenvolvimento que acontece brincando. </strong>A Lousa Magnética Nido foi criada para transformar momentos simples em experiências de aprendizado, criatividade e autonomia. Inspirada na abordagem Montessori, ela estimula a imaginação, coordenação motora, concentração e alfabetização de forma leve e natural — sem telas e sem excesso de estímulos. Um espaço pensado para a criança criar, explorar e aprender todos os dias.<br/><br/><strong><br/></strong><br/></p>",
             "show_image_banner": false,
             "image": "shopify://shop_images/MOBILE_Mobile_heor2.png"
           }
