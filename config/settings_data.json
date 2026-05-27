@@ -163,7 +163,7 @@
     "wbmin_order": "BRL:550,00",
     "pcolor_scheme": "accent-2",
     "cart_drawer_collection": "combos-nido",
-    "show_cartpayment": true,
+    "show_cartpayment": false,
     "upsellp": true,
     "wbuphead": "Complete a experiência.",
     "upsellcollection": "kits-magneticos",
