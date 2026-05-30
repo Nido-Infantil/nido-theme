@@ -793,11 +793,11 @@
         "mark_speed": 36,
         "marq_diection": "right_left",
         "seprater": "pipe",
-        "font_size": 25,
+        "font_size": 20,
         "enable_transp": false,
-        "card_color_scheme": "accent-1",
-        "text_padding_top": 12,
-        "text_padding_bottom": 12,
+        "card_color_scheme": "scheme-02f292aa-2923-4776-8edc-6e811576338b",
+        "text_padding_top": 14,
+        "text_padding_bottom": 14,
         "padding_top": 60,
         "padding_bottom": 0
       }
@@ -966,7 +966,7 @@
         "image_height": "adapt",
         "pro_preview_position": "in_side",
         "color_scheme": "inverse",
-        "padding_top": 20,
+        "padding_top": 32,
         "padding_bottom": 64
       }
     },

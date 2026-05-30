@@ -343,6 +343,20 @@
           "link_hover": "#719378",
           "shadow": "#121212"
         }
+      },
+      "scheme-02f292aa-2923-4776-8edc-6e811576338b": {
+        "settings": {
+          "background": "#e18874",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "#719378",
+          "button_label": "#ffffff",
+          "button_hover": "#2f2f2f",
+          "button_label_hover": "#ffffff",
+          "secondary_button_label": "#2f2f2f",
+          "link_hover": "#719378",
+          "shadow": "#121212"
+        }
       }
     }
   },
