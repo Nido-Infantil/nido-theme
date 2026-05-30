@@ -1837,11 +1837,13 @@ header.header .modal__close-button:hover svg.icon path{
     fill: rgb(var(--color-button-hover-text));
 }
 .wb_cart_bg span.wbhcartitem{
-    background-color: rgb(var(--color-button-text));
-    color: rgb(var(--color-button));
+    background-color: white !important;
+    color: #171717bf !important;
+    font-weight: 800 !important;
     display: flex;
     align-items: center;
     justify-content: center;
+    border:1px solid #757575bf !important;
 }
 .wb_cart_bg .wbcarthtotal *{
     color: rgb(var(--color-button-text));
@@ -1854,8 +1856,8 @@ header.header .modal__close-button:hover svg.icon path{
 }
 .wb_cart_bg,.header__icons .wbhcart .wb_cart_bg{
     background: rgb(var(--color-button));
-    padding: 6px 10px;
-    border-radius: var(--buttons-radius);
+    padding: 6px;
+    border-radius: 40px;
 }
 .page-index .tranhead.transparent_header .wbhcart span,
 .page-index .tranhead.transparent_header .header__iconstext .userdrop account-icon, 
