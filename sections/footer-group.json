@@ -35,12 +35,25 @@
             "heading": "Categorias",
             "menu": "main-menu"
           }
+        },
+        "brand_information_3d6WmW": {
+          "type": "brand_information",
+          "settings": {
+            "footer-logo_width": 150,
+            "heading": "Atendimento",
+            "contsubtext": "",
+            "description_style": "body",
+            "footer_address": "PC Jose Dias Aranha, 138, Parque Industrial, Tuiuti",
+            "footer_contact_no": "(11) 9331 9272",
+            "footer_contact_id": "contato@nidoinfantil.com.br"
+          }
         }
       },
       "block_order": [
         "03762e02-4a28-4d49-8f32-3d9128b1dc11",
         "a45c2795-2053-4aa9-833e-08119b55571b",
-        "link_list_PCmnn4"
+        "link_list_PCmnn4",
+        "brand_information_3d6WmW"
       ],
       "settings": {
         "enable_follow_on_shop": false,
@@ -54,7 +67,7 @@
         "show_policy": false,
         "show_copyright": true,
         "scroll-to-top": false,
-        "color_scheme": "scheme-abe3bc68-5409-41dd-abcf-8f9ac474947a",
+        "color_scheme": "inverse",
         "margin_top": 0,
         "padding_top": 0,
         "padding_bottom": 0
