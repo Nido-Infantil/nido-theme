@@ -14,6 +14,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "localization_menu_6iG7bz": {
+          "type": "localization_menu",
+          "settings": {
+            "heading": "Institucional",
+            "menu": "politicas"
+          }
+        },
         "03762e02-4a28-4d49-8f32-3d9128b1dc11": {
           "type": "newsletter",
           "settings": {
@@ -50,6 +57,7 @@
         }
       },
       "block_order": [
+        "localization_menu_6iG7bz",
         "03762e02-4a28-4d49-8f32-3d9128b1dc11",
         "a45c2795-2053-4aa9-833e-08119b55571b",
         "link_list_PCmnn4",
