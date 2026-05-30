@@ -14,6 +14,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "03762e02-4a28-4d49-8f32-3d9128b1dc11": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Assinantes",
+            "news_subtext": "<p>Receba novidades, lançamentos e condições especiais antes de todo mundo.</p>",
+            "description_style": "body"
+          }
+        },
         "a45c2795-2053-4aa9-833e-08119b55571b": {
           "type": "link_list",
           "settings": {
@@ -27,20 +35,12 @@
             "heading": "Categorias",
             "menu": "main-menu"
           }
-        },
-        "03762e02-4a28-4d49-8f32-3d9128b1dc11": {
-          "type": "newsletter",
-          "settings": {
-            "heading": "Assinantes",
-            "news_subtext": "<p>Receba novidades, lançamentos e condições especiais antes de todo mundo.</p>",
-            "description_style": "body"
-          }
         }
       },
       "block_order": [
+        "03762e02-4a28-4d49-8f32-3d9128b1dc11",
         "a45c2795-2053-4aa9-833e-08119b55571b",
-        "link_list_PCmnn4",
-        "03762e02-4a28-4d49-8f32-3d9128b1dc11"
+        "link_list_PCmnn4"
       ],
       "settings": {
         "enable_follow_on_shop": false,
