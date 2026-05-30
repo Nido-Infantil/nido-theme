@@ -615,7 +615,7 @@
         "box_align": "bottom",
         "text_alignment": "center",
         "show_text_box": false,
-        "imgcolor_scheme": "",
+        "imgcolor_scheme": "background-1",
         "heading": "",
         "sub_heading": "",
         "button_label": "",
