@@ -409,7 +409,7 @@
                 {%- endfor -%}
             </ul>
           {%- endif -%} {% endcomment %}
-          © 2026 Zarix Energia - Zarix Solucoes Inteligentes LTDA | Todos os direitos reservados CNPJ: 53.519.375/0001-29 Endereco: PC Jose Dias Aranha, 138, Parque Industrial, Tuiuti / SP CEP: 13.309-639
+          {{ section.settings.copyright_text }}
         </div>
     </div>
     {% endif %}
@@ -773,6 +773,12 @@ function toggleTopButton() {
       "id": "show_copyright",
       "default": true,
       "label": "t:sections.footer.settings.show_copyright.label"
+    },
+    {
+      "type": "richtext",
+      "id": "copyright_text",
+      "default": "<p>© 2026 Zarix Energia - Zarix Solucoes Inteligentes LTDA | Todos os direitos reservados CNPJ: 53.519.375/0001-29 Endereco: PC Jose Dias Aranha, 138, Parque Industrial, Tuiuti / SP CEP: 13.309-639</p>",
+      "label": "Texto do copyright"
     },
     {
       "type": "header",

@@ -311,6 +311,10 @@ footer .list-social__item a:hover svg path{
   text-align: center;
   padding: 10px;
 }
+.footer__copyright p {
+  color: #ffffff;
+  margin: 0;
+}
 .footer_copyright_wrapper{
   background: #252525;
 }
