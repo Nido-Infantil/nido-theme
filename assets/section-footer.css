@@ -270,6 +270,8 @@ footer .list-social__item a:hover svg path{
   justify-content: center;
 }
 .footer__copyright {
+  color:white;
+  background: #252525;
   text-align: center;
   padding: 10px;
 }

@@ -330,7 +330,7 @@
         <div class="footer__content-bottom-wrapper footer_copyright_wrapper{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
 
         <div class="footer__copyright caption">
-          {%- if section.settings.show_copyright -%}
+          {% comment %} {%- if section.settings.show_copyright -%}
             <small class="copyright__content"
             > 
             {% render 'icon-copyright' %}
@@ -349,7 +349,8 @@
                     {%- endif -%}
                 {%- endfor -%}
             </ul>
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
+          © 2026 Zarix Energia - Zarix Solucoes Inteligentes LTDA | Todos os direitos reservados CNPJ: 53.519.375/0001-29 Endereco: PC Jose Dias Aranha, 138, Parque Industrial, Tuiuti / SP CEP: 13.309-639
         </div>
     </div>
     {% endif %}
