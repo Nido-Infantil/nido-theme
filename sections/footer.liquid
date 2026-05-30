@@ -44,30 +44,62 @@
         if section.blocks.size == 1 and section.blocks[0].type == 'brand_information' and brand_empty and has_social_icons == false and section.settings.enable_follow_on_shop == false
             assign only_empty_brand = true
         endif
+
+        assign has_newsletter_block = false
+        assign has_localization_menu_block = false
+        assign footer_content_blocks_count = 0
+        for block in section.blocks
+            if block.type == 'localization_menu'
+                assign has_localization_menu_block = true
+            else
+                assign footer_content_blocks_count = footer_content_blocks_count | plus: 1
+                if block.type == 'newsletter'
+                    assign has_newsletter_block = true
+                endif
+            endif
+        endfor
     -%}
-    {%- if section.blocks.size > 0
+    {%- if footer_content_blocks_count > 0
     or section.settings.show_social
     or section.settings.enable_follow_on_shop
     -%}
-      {% if section.blocks.size > 0 %}
+      {% if footer_content_blocks_count > 0 %}
         {%- unless only_empty_brand -%}
             <div class="footer__content-top page-width">
-                {%- if section.blocks.size > 0 -%}
+                {%- if footer_content_blocks_count > 0 -%}
                     {%- liquid
-                        if section.blocks.size == 9
+                        if footer_content_blocks_count == 9
                             assign footer_grid_class = 'grid--3-col-tablet'
-                        elsif section.blocks.size > 6
+                        elsif footer_content_blocks_count > 6
                             assign footer_grid_class = 'grid--4-col-desktop'
-                        elsif section.blocks.size > 4
+                        elsif footer_content_blocks_count > 4
                             assign footer_grid_class = 'grid--3-col-tablet'
                         endif
                     -%}
-                    <webi-collapse class="footer__blocks-wrapper grid grid--1-col-tablet-down grid--{{ section.blocks.size }}-col-desktop grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
+                    <webi-collapse class="footer__blocks-wrapper grid grid--1-col-tablet-down grid--{{ footer_content_blocks_count }}-col-desktop grid--2-col grid--4-col-tablet{% if has_newsletter_block %} footer__blocks-wrapper--five-col{% endif %} {{ footer_grid_class }}">
                         {%- for block in section.blocks -%}
-                            <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}"
+                          {%- unless block.type == 'localization_menu' -%}
+                            <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if block.type == 'newsletter' %} footer-block--newsletter-item{% endif %}"
                                     {{ block.shopify_attributes }}>
+                                {%- if block.type == 'newsletter' and settings.logo != blank -%}
+                                    {%- assign footer_newsletter_logo_alt = settings.logo.alt | default: shop.name | escape -%}
+                                    {%- assign footer_newsletter_logo_width = settings.logo_width | at_most: 180 -%}
+                                    {%- assign footer_newsletter_logo_height = footer_newsletter_logo_width | divided_by: settings.logo.aspect_ratio | round -%}
+                                    <a href="{{ routes.root_url }}" class="footer-newsletter__logo-link">
+                                        {{
+                                            settings.logo
+                                            | image_url: width: 360
+                                            | image_tag:
+                                                loading: 'lazy',
+                                                width: footer_newsletter_logo_width,
+                                                height: footer_newsletter_logo_height,
+                                                alt: footer_newsletter_logo_alt,
+                                                class: 'footer-newsletter__logo img-fluid'
+                                        }}
+                                    </a>
+                                {%- endif -%}
                                 {%- if block.settings.heading != blank -%}
-                                    <h2  data-toggle="collapse" data-target="#wb-{{ block.settings.heading | camelcase }}" class="footer-block__heading inline-richtext {% if block.settings.footer_logo == blank %} toggle collapsed{% else %} footer-logo{% endif %} h6 rte" aria-expanded="false" aria-controls="wb-{{ block.settings.heading | camelcase }}" id="wb-{{ block.settings.heading | camelcase }}">{{- block.settings.heading -}}</h2>
+                                    <h2 class="footer-block__heading inline-richtext {% if block.settings.footer_logo != blank %}footer-logo{% endif %} h6 rte" id="wb-{{ block.settings.heading | camelcase }}">{{- block.settings.heading -}}</h2>
                                 {%- endif -%}
                                 {%- case block.type -%}
                                     {%- when '@app' -%}
@@ -111,16 +143,22 @@
                                                 </div>
                                             {%- endif -%}
                                             <ul>
-                                                {%- if block.settings.footer_address != blank -%}
-                                                    <li>{% render 'icon-faddress' %} <span>{{ block.settings.footer_address }}</span>
-                                                    </li>
-                                                {%- endif -%}
                                                 {%- if block.settings.footer_contact_no != blank -%}
-                                                    <li>{% render 'icon-fcontact' %} <span class="rte">{{ block.settings.footer_contact_no }}</span>
+                                                    {%- liquid
+                                                        assign whatsapp_number = block.settings.footer_contact_no | replace: ' ', '' | replace: '(', '' | replace: ')', '' | replace: '-', '' | replace: '+', '' | replace: '.', ''
+                                                        if whatsapp_number.size <= 11
+                                                            assign whatsapp_number = whatsapp_number | prepend: '55'
+                                                        endif
+                                                    -%}
+                                                    <li>{% render 'icon-whatsapp' %} <a class="rte" href="https://wa.me/{{ whatsapp_number }}" target="_blank" rel="noopener">{{ block.settings.footer_contact_no }}</a>
                                                     </li>
                                                 {%- endif -%}
                                                 {%- if block.settings.footer_contact_id != blank -%}
-                                                    <li>{% render 'icon-fmail' %} <span class="rte">{{ block.settings.footer_contact_id }}</span>
+                                                    <li>{% render 'icon-email' %} <span class="rte">{{ block.settings.footer_contact_id }}</span>
+                                                    </li>
+                                                {%- endif -%}
+                                                {%- if block.settings.footer_address != blank -%}
+                                                    <li>{% render 'icon-faddress' %} <span>{{ block.settings.footer_address }}</span>
                                                     </li>
                                                 {%- endif -%}
                                             </ul>
@@ -203,6 +241,7 @@
                                         </div>
                                 {%- endcase -%}
                             </div>
+                          {%- endunless -%}
                         {%- endfor -%}
                     </webi-collapse>
                 {%- endif -%}
@@ -218,11 +257,31 @@
             {% # theme-check-enable %}
         </div>
     {%- endif -%}
-    {% if section.settings.enable_language_selector or section.settings.enable_country_selector or section.settings.payment_enable or section.settings.show_social %}
+    {% if section.settings.enable_language_selector or section.settings.enable_country_selector or section.settings.payment_enable or section.settings.show_social or has_localization_menu_block %}
       <div class="footer__content-bottom">
         <div class="footer__content-bottom-wrapper page-width">
-            {% if section.settings.enable_country_selector or section.settings.enable_language_selector %}
+            {% if section.settings.enable_country_selector or section.settings.enable_language_selector or has_localization_menu_block %}
                 <div class="footer__column footer__localization isolate">
+                    {%- for block in section.blocks -%}
+                        {%- if block.type == 'localization_menu' -%}
+                            <div class="footer-localization-menu" {{ block.shopify_attributes }}>
+                                {%- if block.settings.heading != blank -%}
+                                    <h3>{{ block.settings.heading }}</h3>
+                                {%- endif -%}
+                                {%- if block.settings.menu != blank -%}
+                                    <ul class="footer-localization-menu__list list-unstyled">
+                                        {%- for link in block.settings.menu.links -%}
+                                            <li>
+                                                <a href="{{ link.url }}" class="link link--text{% if link.active %} list-menu__item--active{% endif %}">
+                                                    {{ link.title }}
+                                                </a>
+                                            </li>
+                                        {%- endfor -%}
+                                    </ul>
+                                {%- endif -%}
+                            </div>
+                        {%- endif -%}
+                    {%- endfor -%}
                     {% if section.settings.lang_heading != blank -%}
                         <h3>{{ section.settings.lang_heading }}</h3>
                     {% endif %}
@@ -383,7 +442,7 @@ function toggleTopButton() {
 {
   "name": "t:sections.footer.name",
   "tag": "footer",
-  "max_blocks": 5,
+  "max_blocks": 6,
   "blocks": [
     {
       "type": "@app"
@@ -404,6 +463,25 @@ function toggleTopButton() {
           "default": "footer",
           "label": "t:sections.footer.blocks.link_list.settings.menu.label",
           "info": "t:sections.footer.blocks.link_list.settings.menu.info"
+        }
+      ]
+    },
+    {
+      "type": "localization_menu",
+      "name": "Menu inferior",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Links",
+          "label": "Titulo"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "default": "footer",
+          "label": "Menu",
+          "info": "Escolha o menu que aparece na coluna de localizacao do footer."
         }
       ]
     },
