@@ -965,7 +965,7 @@
         "description_style": "body",
         "image_height": "adapt",
         "pro_preview_position": "in_side",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "padding_top": 32,
         "padding_bottom": 64
       }
