@@ -271,9 +271,11 @@ footer .list-social__item a:hover svg path{
 }
 .footer__copyright {
   color:white;
-  background: #252525;
   text-align: center;
   padding: 10px;
+}
+.footer_copyright_wrapper{
+  background: #252525;
 }
 .footer-block__details-content .list-menu__item--active {
   transition: text-decoration-thickness var(--duration-short) ease;
