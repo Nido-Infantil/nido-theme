@@ -2253,6 +2253,10 @@ product-info .loading-overlay:not(.hidden) ~ *,
     padding: 0 5px;
     column-gap: 10px;
     width: auto;
+    color: white !important;
+}
+.header__search .field__button span{
+    color: white !important;
 }
 .header__search .field{
     column-gap: 10px;

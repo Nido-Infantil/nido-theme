@@ -64,6 +64,32 @@
   flex-wrap: wrap;
   justify-content: var(--product-card-text-alignment);
 }
+.product__info-container .product-page-price.price--on-sale .price__sale {
+  gap: 8px;
+}
+
+.product-page-price__pix-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  padding: 8px 10px;
+  margin-left:8px;
+  border: 1px solid rgba(113, 147, 120, 0.28);
+  border-radius: 4px;
+  background: rgba(113, 147, 120, 0.12);
+  color: #496f51;
+  font-size: calc(var(--font-body-scale) * 14px);
+  font-weight: var(--font-body-weight-medium);
+  line-height: 1;
+}
+.product-page-price__pix-badge strong {
+  color: #aa4129;
+  font-weight: 700;
+}
+.product-page-price__pix-badge span {
+  color: rgba(73, 111, 81, 0.86);
+}
 .wbcartupsell .price--on-sale .price__sale, .search_default .price--on-sale .price__sale, .predictive-search__results-groups-wrapper .price--on-sale .price__sale {
   justify-content: flex-start;
 }

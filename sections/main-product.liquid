@@ -318,7 +318,7 @@
                     role="status"
                     {{ block.shopify_attributes }}
                   >
-                    {%- render 'price',
+                    {%- render 'price-product',
                       product: product,
                       use_variant: true,
                       show_badges: true,
@@ -326,7 +326,7 @@
                     -%}
                   </div>
 
-                  <span class="product-card-collection__installments"> ou <strong>{{ settings.number_installment }}x</strong> de <strong>{{ product.price |  divided_by: settings.number_installment | money }}</strong> sem juros</span>
+                  <span class="product-card-collection__installments">Ou <strong>{{ product.price | money }}</strong> em até <strong>{{ settings.number_installment }}x</strong> de <strong>{{ product.price | divided_by: settings.number_installment | money }}</strong> sem juros no cartão</span>
 
                   {%- if product.quantity_price_breaks_configured? -%}
                     <div class="volume-pricing-note">
