@@ -14,22 +14,22 @@
     "announcement_bar_r64jLk": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_hxATKm": {
-          "type": "announcement",
-          "settings": {
-            "text": "Aproveite as promoções do mês de Maio."
-          }
-        },
         "announcement_eyxbmg": {
           "type": "announcement",
           "settings": {
-            "text": "<strong>Frete grátis para SP, MG e RJ por tempo limitado</strong>"
+            "text": "<strong>Frete grátis para Sul e Sudeste - APENAS EM JUNHO</strong>"
+          }
+        },
+        "announcement_hxATKm": {
+          "type": "announcement",
+          "settings": {
+            "text": "Entre no nosso Grupo VIP do Whatsapp"
           }
         }
       },
       "block_order": [
-        "announcement_hxATKm",
-        "announcement_eyxbmg"
+        "announcement_eyxbmg",
+        "announcement_hxATKm"
       ],
       "settings": {
         "full-width": false,
