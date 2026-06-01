@@ -16,8 +16,8 @@
           "type": "slide",
           "settings": {
             "pagination_text": "",
-            "image": "shopify://shop_images/Banners_do_site.jpg",
-            "mobile_image": "shopify://shop_images/MOBILE_01_-_Hero.png",
+            "image": "shopify://shop_images/01_-_Hero.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE__01_-_Hero.jpg",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h1",
@@ -43,43 +43,12 @@
             "text_alignment_mobile": "left"
           }
         },
-        "template--16391993720889__3ec26328-39f6-4397-b03f-f6603259aac8-slide-1": {
-          "type": "slide",
-          "settings": {
-            "pagination_text": "",
-            "image": "shopify://shop_images/02_-_Combos_Promocionais.png",
-            "mobile_image": "shopify://shop_images/MOBILE_02_-_Combos_Promocionais_2ed468e9-8490-43d7-838a-acb4fcaf0332.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h2",
-            "offer__text": "",
-            "mini_heading_style": "button",
-            "subheading": "",
-            "description": "",
-            "text_style": "body",
-            "button_label": "",
-            "link": "shopify://collections/combos-nido-1",
-            "show_icon": false,
-            "link_window": false,
-            "view_all_style": "link",
-            "button_label2": "",
-            "link2": "",
-            "show_icon2": false,
-            "link_window2": true,
-            "view_all_style2": "solid",
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "left"
-          }
-        },
         "slide_A349PK": {
           "type": "slide",
           "settings": {
             "pagination_text": "",
-            "image": "shopify://shop_images/05_-_Dia_das_maes.png",
-            "mobile_image": "shopify://shop_images/MOBILE_05_-_Dia_das_maes.png",
+            "image": "shopify://shop_images/Banner-Frete-Gratis-Desktop.png",
+            "mobile_image": "shopify://shop_images/Banner-Frete-Gratis-Quadrado.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h0",
@@ -105,13 +74,44 @@
             "text_alignment_mobile": "center"
           }
         },
+        "template--16391993720889__3ec26328-39f6-4397-b03f-f6603259aac8-slide-1": {
+          "type": "slide",
+          "settings": {
+            "pagination_text": "",
+            "image": "shopify://shop_images/02_-_Combos_Promocionais_1.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE__02_-_Combos_Promocionais.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "offer__text": "",
+            "mini_heading_style": "button",
+            "subheading": "",
+            "description": "",
+            "text_style": "body",
+            "button_label": "",
+            "link": "shopify://collections/combos-nido-1",
+            "show_icon": false,
+            "link_window": false,
+            "view_all_style": "link",
+            "button_label2": "",
+            "link2": "",
+            "show_icon2": false,
+            "link_window2": true,
+            "view_all_style2": "solid",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        },
         "slide_8TtXBG": {
           "type": "slide",
           "settings": {
             "pagination_text": "",
-            "image": "shopify://shop_images/03_-_Kits_Magneticos.png",
-            "mobile_image": "shopify://shop_images/MOBILE_03_-_Kits_Magneticos.png",
-            "image_overlay_opacity": 60,
+            "image": "shopify://shop_images/03_-_Kits_Magne_ticos.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE__03_-_Kits_Magne_ticos.jpg",
+            "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h2",
             "offer__text": "",
@@ -140,8 +140,8 @@
           "type": "slide",
           "settings": {
             "pagination_text": "",
-            "image": "shopify://shop_images/04_-_Acessorios.png",
-            "mobile_image": "shopify://shop_images/MOBILE_04_-_Acessorios.png",
+            "image": "shopify://shop_images/04_-_Acesso_rios.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE__04_-_Acesso_rios.jpg",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h0",
@@ -170,8 +170,8 @@
       },
       "block_order": [
         "slide_CcDE8G",
-        "template--16391993720889__3ec26328-39f6-4397-b03f-f6603259aac8-slide-1",
         "slide_A349PK",
+        "template--16391993720889__3ec26328-39f6-4397-b03f-f6603259aac8-slide-1",
         "slide_8TtXBG",
         "slide_L3rpGm"
       ],
