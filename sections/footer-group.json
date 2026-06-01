@@ -72,7 +72,7 @@
         "enable_language_selector": false,
         "pay_heading": "Métodos de pagamento",
         "payment_enable": false,
-        "show_policy": false,
+        "show_policy": true,
         "show_copyright": true,
         "copyright_text": "<p>© 2026 Zarix Energia - Zarix Solucoes Inteligentes LTDA | Todos os direitos reservados CNPJ: 53.519.375/0001-29 Endereco: PC Jose Dias Aranha, 138, Parque Industrial, Tuiuti / SP CEP: 13.309-639</p>",
         "scroll-to-top": false,
