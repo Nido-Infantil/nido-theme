@@ -47,8 +47,8 @@
           "type": "slide",
           "settings": {
             "pagination_text": "",
-            "image": "shopify://shop_images/Banner-Frete-Gratis-Desktop.png",
-            "mobile_image": "shopify://shop_images/Banner-Frete-Gratis-Quadrado.png",
+            "image": "shopify://shop_images/NIDO_FRETE_GRATIS_BANNER_DESKTOP.webp",
+            "mobile_image": "shopify://shop_images/NIDO_FRETE_GRATIS_BANNER_MOBILE.webp",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h0",
