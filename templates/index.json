@@ -787,7 +787,7 @@
     "scrolling_bar_qjKeqw": {
       "type": "scrolling-bar",
       "settings": {
-        "wb_marktext": "Mês de Maio - Aproveite nossas promoções.",
+        "wb_marktext": "MEGA PROMOÇÃO 6.6 - 30% OFF NO PIX",
         "outline_text": false,
         "mark_space": 25,
         "mark_speed": 36,
@@ -1099,6 +1099,7 @@
   },
   "order": [
     "3ec26328-39f6-4397-b03f-f6603259aac8",
+    "scrolling_bar_qjKeqw",
     "collection_list_te7iqY",
     "text_with_icons_qampc9",
     "featured_collection_FpmFxb",
@@ -1108,7 +1109,6 @@
     "featured_collection_PPjXEe",
     "image_with_text_AbaJVU",
     "image_banner_hi3iWk",
-    "scrolling_bar_qjKeqw",
     "testimonial_n68k3b",
     "lookbook_zANTjP",
     "scrolling_bar_AT7Vxy",
