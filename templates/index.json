@@ -12,25 +12,25 @@
     "3ec26328-39f6-4397-b03f-f6603259aac8": {
       "type": "slideshow",
       "blocks": {
-        "slide_8TtXBG": {
+        "slide_CcDE8G": {
           "type": "slide",
           "settings": {
             "pagination_text": "",
-            "image": "shopify://shop_images/NIDO_06.06_DESKTOP.webp",
-            "mobile_image": "shopify://shop_images/NIDO_06.06_MOBILE.webp",
+            "image": "shopify://shop_images/01_-_Hero.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE__01_-_Hero.jpg",
             "image_overlay_opacity": 0,
             "heading": "",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "offer__text": "",
-            "mini_heading_style": "link",
+            "mini_heading_style": "button",
             "subheading": "",
             "description": "",
-            "text_style": "body",
+            "text_style": "subtitle",
             "button_label": "",
-            "link": "shopify://collections/kits-magneticos",
+            "link": "shopify://collections/lousas-magneticas-nido",
             "show_icon": false,
             "link_window": false,
-            "view_all_style": "solid",
+            "view_all_style": "link",
             "button_label2": "",
             "link2": "",
             "show_icon2": false,
@@ -38,7 +38,7 @@
             "view_all_style2": "solid",
             "box_align": "middle-left",
             "show_text_box": false,
-            "text_alignment": "left",
+            "text_alignment": "center",
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
           }
@@ -74,37 +74,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_CcDE8G": {
-          "type": "slide",
-          "settings": {
-            "pagination_text": "",
-            "image": "shopify://shop_images/01_-_Hero.jpg",
-            "mobile_image": "shopify://shop_images/MOBILE__01_-_Hero.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "offer__text": "",
-            "mini_heading_style": "button",
-            "subheading": "",
-            "description": "",
-            "text_style": "subtitle",
-            "button_label": "",
-            "link": "shopify://collections/lousas-magneticas-nido",
-            "show_icon": false,
-            "link_window": false,
-            "view_all_style": "link",
-            "button_label2": "",
-            "link2": "",
-            "show_icon2": false,
-            "link_window2": true,
-            "view_all_style2": "solid",
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "left"
-          }
-        },
         "template--16391993720889__3ec26328-39f6-4397-b03f-f6603259aac8-slide-1": {
           "type": "slide",
           "settings": {
@@ -124,6 +93,37 @@
             "show_icon": false,
             "link_window": false,
             "view_all_style": "link",
+            "button_label2": "",
+            "link2": "",
+            "show_icon2": false,
+            "link_window2": true,
+            "view_all_style2": "solid",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "slide_8TtXBG": {
+          "type": "slide",
+          "settings": {
+            "pagination_text": "",
+            "image": "shopify://shop_images/03_-_Kits_Magne_ticos.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE__03_-_Kits_Magne_ticos.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "offer__text": "",
+            "mini_heading_style": "link",
+            "subheading": "",
+            "description": "",
+            "text_style": "body",
+            "button_label": "",
+            "link": "shopify://collections/kits-magneticos",
+            "show_icon": false,
+            "link_window": false,
+            "view_all_style": "solid",
             "button_label2": "",
             "link2": "",
             "show_icon2": false,
@@ -169,10 +169,10 @@
         }
       },
       "block_order": [
-        "slide_8TtXBG",
-        "slide_A349PK",
         "slide_CcDE8G",
+        "slide_A349PK",
         "template--16391993720889__3ec26328-39f6-4397-b03f-f6603259aac8-slide-1",
+        "slide_8TtXBG",
         "slide_L3rpGm"
       ],
       "settings": {
@@ -192,6 +192,25 @@
         "color_scheme": "background-1",
         "show_text_below": false,
         "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "scrolling_bar_qjKeqw": {
+      "type": "scrolling-bar",
+      "disabled": true,
+      "settings": {
+        "wb_marktext": "MEGA PROMOÇÃO 6.6 - 30% OFF NO PIX",
+        "outline_text": false,
+        "mark_space": 25,
+        "mark_speed": 36,
+        "marq_diection": "right_left",
+        "seprater": "pipe",
+        "font_size": 20,
+        "enable_transp": false,
+        "card_color_scheme": "scheme-02f292aa-2923-4776-8edc-6e811576338b",
+        "text_padding_top": 14,
+        "text_padding_bottom": 14,
+        "padding_top": 60,
         "padding_bottom": 0
       }
     },
@@ -781,24 +800,6 @@
         "show_gap": true,
         "section_color_scheme": "inverse",
         "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "scrolling_bar_qjKeqw": {
-      "type": "scrolling-bar",
-      "settings": {
-        "wb_marktext": "MEGA PROMOÇÃO 6.6 - 30% OFF NO PIX",
-        "outline_text": false,
-        "mark_space": 25,
-        "mark_speed": 36,
-        "marq_diection": "right_left",
-        "seprater": "pipe",
-        "font_size": 20,
-        "enable_transp": false,
-        "card_color_scheme": "scheme-02f292aa-2923-4776-8edc-6e811576338b",
-        "text_padding_top": 14,
-        "text_padding_bottom": 14,
-        "padding_top": 60,
         "padding_bottom": 0
       }
     },
