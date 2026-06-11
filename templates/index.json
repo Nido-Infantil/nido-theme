@@ -12,37 +12,6 @@
     "3ec26328-39f6-4397-b03f-f6603259aac8": {
       "type": "slideshow",
       "blocks": {
-        "slide_CcDE8G": {
-          "type": "slide",
-          "settings": {
-            "pagination_text": "",
-            "image": "shopify://shop_images/01_-_Hero.jpg",
-            "mobile_image": "shopify://shop_images/MOBILE__01_-_Hero.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "offer__text": "",
-            "mini_heading_style": "button",
-            "subheading": "",
-            "description": "",
-            "text_style": "subtitle",
-            "button_label": "",
-            "link": "shopify://collections/lousas-magneticas-nido",
-            "show_icon": false,
-            "link_window": false,
-            "view_all_style": "link",
-            "button_label2": "",
-            "link2": "",
-            "show_icon2": false,
-            "link_window2": true,
-            "view_all_style2": "solid",
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "left"
-          }
-        },
         "slide_A349PK": {
           "type": "slide",
           "settings": {
@@ -101,6 +70,37 @@
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "slide_CcDE8G": {
+          "type": "slide",
+          "settings": {
+            "pagination_text": "",
+            "image": "shopify://shop_images/01_-_Hero.jpg",
+            "mobile_image": "shopify://shop_images/MOBILE__01_-_Hero.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "offer__text": "",
+            "mini_heading_style": "button",
+            "subheading": "",
+            "description": "",
+            "text_style": "subtitle",
+            "button_label": "",
+            "link": "shopify://collections/lousas-magneticas-nido",
+            "show_icon": false,
+            "link_window": false,
+            "view_all_style": "link",
+            "button_label2": "",
+            "link2": "",
+            "show_icon2": false,
+            "link_window2": true,
+            "view_all_style2": "solid",
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
           }
@@ -169,9 +169,9 @@
         }
       },
       "block_order": [
-        "slide_CcDE8G",
         "slide_A349PK",
         "template--16391993720889__3ec26328-39f6-4397-b03f-f6603259aac8-slide-1",
+        "slide_CcDE8G",
         "slide_8TtXBG",
         "slide_L3rpGm"
       ],
