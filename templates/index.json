@@ -973,15 +973,14 @@
     },
     "scrolling_bar_AT7Vxy": {
       "type": "scrolling-bar",
-      "disabled": true,
       "settings": {
-        "wb_marktext": "Menos Telas. Mais infância! | Nido - Onde brinca vira memória.",
+        "wb_marktext": "🌽 Festa Junina Nido — 10% OFF no Pix",
         "outline_text": false,
         "mark_space": 25,
         "mark_speed": 36,
         "marq_diection": "right_left",
         "seprater": "pipe",
-        "font_size": 25,
+        "font_size": 21,
         "enable_transp": false,
         "card_color_scheme": "accent-1",
         "text_padding_top": 12,
@@ -1105,6 +1104,7 @@
     "text_with_icons_qampc9",
     "featured_collection_FpmFxb",
     "featured_collection_QJgTGn",
+    "scrolling_bar_AT7Vxy",
     "collection_list_VzLbjA",
     "video_Qn3ddY",
     "featured_collection_PPjXEe",
@@ -1112,7 +1112,6 @@
     "image_banner_hi3iWk",
     "testimonial_n68k3b",
     "lookbook_zANTjP",
-    "scrolling_bar_AT7Vxy",
     "8a12a3a7-a50d-4029-898d-88427762a9db",
     "collapsible_content_DM9CXr"
   ]
