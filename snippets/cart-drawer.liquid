@@ -10,7 +10,15 @@
   .drawer {
     visibility: hidden;
   }
+  /* NIDO: carrinho estilo referencia */
+  .wbcartupsell .upshead{font-size:1.7rem;font-weight:700;}
+  .cart-checkout-note{text-align:center;font-size:1.2rem;color:rgba(var(--color-foreground),.7);margin:10px 0 0;}
+  .cart-drawer .totals__subtotal{font-size:1.9rem;font-weight:700;}
+  .cart-drawer .totals{align-items:flex-start;}
+  .totals__pixwrap{text-align:right;margin-left:auto;}
+  .totals__installments{margin:2px 0 0;font-size:1.25rem;color:rgba(var(--color-foreground),.7);text-align:right;}
 </style>
+{% render 'cart-drawer-nido-css' %}
 
 <cart-drawer class="drawer{% if cart == empty %} is-empty{% endif %} color-{{ settings.drawer_color_scheme }} gradient">
   <div id="CartDrawer" class="cart-drawer">
@@ -49,7 +57,7 @@
           {% render 'icon-close' %}
         </button>
       </div>
-     
+
       {% if settings.wbenable_ship %}
         {%- liquid
             assign isNumber = settings.wbmin_order | plus: 0
@@ -86,11 +94,11 @@
                     <tbody role="rowgroup">
                       {%- for item in cart.items -%}
                         <tr id="CartDrawer-Item-{{ item.index | plus: 1 }}" class="cart-item" role="row">
-                          <td class="cart-item__media 
+                          <td class="cart-item__media
                             {% if item.image == blank %} blank__image {% endif %}" role="cell" headers="CartDrawer-ColumnProductImage">
                             {% if item.image %}
                               {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
-                              <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true"> 
+                              <a href="{{ item.url }}" class="cart-item__link" tabindex="-1" aria-hidden="true">
                                 {%- assign image_alt = item.image.alt | escape -%}
                                 {%- assign image_height = 150 | divided_by: item.image.aspect_ratio | ceil -%}
                                 {{ item.image | image_url: width: 300 | image_tag: alt: image_alt, loading: 'lazy', width: 150, height: image_height, class: 'cart-item__image' }}
@@ -119,7 +127,7 @@
                             <dl class="item-price-wrapper">
                               {%- if item.original_line_price != item.final_line_price -%}
                                 <div class="cart-item__discounted-prices">
-                                 
+
                                   <span class="visually-hidden">
                                     {{ 'products.product.price.sale_price' | t }}
                                   </span>
@@ -264,9 +272,9 @@
                               <cart-remove-button id="CartDrawer-Remove-{{ item.index | plus: 1 }}" data-index="{{ item.index | plus: 1 }}">
                                 {% render 'icon-remove' %}
                               </cart-remove-button>
-                              
-                              
-                              
+
+
+
                             </div>
 
                           </td>
@@ -287,10 +295,10 @@
         {% comment %}Cart upsell product{% endcomment %}
         {%- if settings.upsellp -%}
           <slider-component class="wbcartupsell {% unless settings.upsellp == true %}is-emptyrmv {% endunless %}{% if settings.card_style == 'card' %} card-upcell{% endif %}">
-            {%- if settings.wbuphead -%}<p class="upshead">{{ settings.wbuphead }}</p>{%- endif -%}
+            <p class="upshead">Leve também</p>
               <ul class="grid slider contains-card--product" id="Slider-{{ section.id }}" >
                 {%- if settings.upsellcollection != blank and settings.upsellcollection.products_count > 0 -%}
-                  {%- for product in settings.upsellcollection.products limit: settings.upsell_to_show -%}
+                  {%- for product in settings.upsellcollection.products limit: 4 -%}
                     <li class="cartupciner slider__slide upsellcollection" id="Slide-{{ section.id }}-{{ forloop.index }}">
                       {% render 'card-productupsell', card_product: product %}
                     </li>
@@ -348,14 +356,21 @@
 
           <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
             <div class="totals" role="status">
-              <span class="totals__subtotal">{{ 'sections.cart.subtotal' | t }} ({{ cart.item_count }})</span>
-              <p class="product-option price-original">
-                {%- if settings.currency_code_enabled -%}
-                  {{ cart.total_price | times: settings.discount_pix_times | money_with_currency }}
-                {%- else -%}
-                  {{ cart.total_price | times: settings.discount_pix_times | money }}
-                {%- endif -%} no <strong>PIX</strong>
-              </p>
+              <span class="totals__subtotal">Total</span>
+              <div class="totals__pixwrap">
+                <p class="product-option price-original">
+                  {%- if settings.currency_code_enabled -%}
+                    {{ cart.total_price | times: settings.discount_pix_times | money_with_currency }}
+                  {%- else -%}
+                    {{ cart.total_price | times: settings.discount_pix_times | money }}
+                  {%- endif -%} no <strong>PIX</strong>
+                </p>
+                {%- if cart != empty -%}
+                  {%- assign installment_value = cart.total_price | divided_by: settings.number_installment -%}
+                  <p class="totals__installments">Ou {{ settings.number_installment }}x de
+                    {%- if settings.currency_code_enabled %} {{ installment_value | money_with_currency }}{% else %} {{ installment_value | money }}{% endif %} sem juros</p>
+                {%- endif -%}
+              </div>
             </div>
           </div>
 
@@ -365,14 +380,15 @@
                 {{ 'sections.cart.update' | t }}
               </button>
             </noscript>
-            <a href="{{ routes.cart_url }}" class="{% if settings.continue_shopping_style == 'link' %} link link underlined-link{% elsif settings.continue_shopping_style == 'solid' %}button{% else %}button button--secondary{% endif %} btn-block">{{ 'wbcustomlabel.wballtext.viewcart' | t }}</a>
+            <a href="{{ routes.cart_url }}" class="{% if settings.continue_shopping_style == 'link' %} link link underlined-link{% elsif settings.continue_shopping_style == 'solid' %}button{% else %}button button--secondary{% endif %} btn-block"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 1 1 8 0v4"></path></svg><span>Finalizar a compra</span></a>
             <button type="submit" id="CartDrawer-Checkout" class="cart__checkout-button button button--primary" name="checkout" form="CartDrawer-Form"{% if cart == empty %} disabled{% endif %}>
               {{ 'sections.cart.checkout' | t }}
             </button>
+            <p class="cart-checkout-note">Frete e Desconto calculados no checkout</p>
           </div>
 
-          {%- if settings.show_cartpayment -%} 
-            <div class="cartdrawfpay text-center"> 
+          {%- if settings.show_cartpayment -%}
+            <div class="cartdrawfpay text-center">
               <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
               <ul>
                 {%- for type in shop.enabled_payment_types -%}
@@ -382,7 +398,7 @@
             </div>
           {%- endif -%}
         </div>
-     
+
     </div>
   </div>
 </cart-drawer>

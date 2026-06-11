@@ -1,0 +1,35 @@
+<style>
+  /* NIDO: carrinho estilo referencia (Little Duck) */
+  /* largura maior */
+  .cart-drawer .drawer__inner{width:845px !important;max-width:92vw !important;padding:0 24px;}
+  /* item do carrinho sempre visivel; upsell rola */
+  cart-drawer-items{flex:0 0 auto !important;max-height:34vh;overflow:auto !important;}
+  .wbcartupsell{flex:1 1 auto;overflow-y:auto;min-height:140px;}
+  .wbcartupsell::-webkit-scrollbar{width:4px;}
+  .wbcartupsell::-webkit-scrollbar-thumb{background:rgba(var(--color-foreground),.3);border-radius:100px;}
+  /* upsell: botao + Adicionar (texto real no botao; anula pseudo-elementos antigos) */
+  .wbcartupsell .wbbtngrp .button::after{content:none !important;}
+  .wbcartupsell .wbbtngrp .button::before{content:none !important;}
+  .cart-drawer .wbcartupsell .wbbtngrp button.cartb.add-to-cart__submit.product-form__submit{width:auto !important;min-width:122px !important;height:auto !important;min-height:42px !important;border-radius:8px !important;padding:10px 16px !important;background:#7d9c85 !important;color:#fff !important;box-shadow:none !important;display:inline-flex;align-items:center;justify-content:center;font-size:14px;font-weight:600;}
+  .cart-drawer .wbcartupsell .wbbtngrp button.cartb.add-to-cart__submit.product-form__submit:hover{background:#6a8a72 !important;}
+  .wbcartupsell .wbbtngrp .button .upsadd{white-space:nowrap;}
+  .wbcartupsell .product-title{font-size:15px;font-weight:600;}
+  .wbcartupsell .upshead{font-size:18px;font-weight:700;}
+  .wbcartupsell .wbproduct-container .wbimgblock{width:90px;}
+  .wbcartupsell .ups_cart{align-items:center;}
+  /* totais */
+  .cart-drawer .totals__subtotal{font-size:20px;font-weight:700;}
+  .totals__pixwrap .product-option.price-original{font-size:18px;font-weight:700;}
+  /* CTA verde vivo */
+  .cart-drawer .cart__ctas.cartdrawbtn{flex-wrap:wrap !important;}
+  #CartDrawer .cart__ctas a.btn-block{background:#16ab53 !important;color:#fff !important;border:none !important;border-radius:10px;text-transform:uppercase;font-weight:700;letter-spacing:.04em;display:flex !important;align-items:center;justify-content:center;gap:10px;min-height:56px;font-size:15px;box-shadow:none !important;}
+  #CartDrawer .cart__ctas a.btn-block:hover{filter:brightness(.93);}
+  #CartDrawer .cart__ctas a.btn-block svg{width:17px;height:17px;flex:0 0 17px;}
+  .cart-drawer .cart-checkout-note{width:100%;flex-basis:100%;text-align:center;font-size:13px;color:rgba(var(--color-foreground),.7);margin:8px 0 0;}
+  /* leitura do item */
+  .cart-drawer .cart-item__name{font-size:16px;}
+  @media (max-width:767px){
+    .cart-drawer .drawer__inner{width:100% !important;max-width:calc(100vw - 10px) !important;padding:0 10px;}
+    cart-drawer-items{max-height:30vh;}
+  }
+</style>
