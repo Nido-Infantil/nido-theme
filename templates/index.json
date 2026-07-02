@@ -12,12 +12,43 @@
     "3ec26328-39f6-4397-b03f-f6603259aac8": {
       "type": "slideshow",
       "blocks": {
+        "slide_L3rpGm": {
+          "type": "slide",
+          "settings": {
+            "pagination_text": "",
+            "image": "shopify://shop_images/NIDO_07.07_DESKTOP.webp",
+            "mobile_image": "shopify://shop_images/NIDO_07.07_MOBILE.webp",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h0",
+            "offer__text": "",
+            "mini_heading_style": "outline",
+            "subheading": "<p></p><p></p>",
+            "description": "",
+            "text_style": "body",
+            "button_label": "",
+            "link": "shopify://collections/acessorios",
+            "show_icon": false,
+            "link_window": true,
+            "view_all_style": "link",
+            "button_label2": "",
+            "link2": "",
+            "show_icon2": false,
+            "link_window2": true,
+            "view_all_style2": "solid",
+            "box_align": "top-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_A349PK": {
           "type": "slide",
           "settings": {
             "pagination_text": "",
-            "image": "shopify://shop_images/NIDO_FRETE_GRATIS_BANNER_DESKTOP.webp",
-            "mobile_image": "shopify://shop_images/NIDO_FRETE_GRATIS_BANNER_MOBILE.webp",
+            "image": "shopify://shop_images/ChatGPT_Image_1_de_jul._de_2026_18_26_12.png",
+            "mobile_image": "shopify://shop_images/ChatGPT_Image_1_de_jul._de_2026_18_22_45.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h0",
@@ -135,45 +166,14 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
           }
-        },
-        "slide_L3rpGm": {
-          "type": "slide",
-          "settings": {
-            "pagination_text": "",
-            "image": "shopify://shop_images/04_-_Acesso_rios.jpg",
-            "mobile_image": "shopify://shop_images/MOBILE__04_-_Acesso_rios.jpg",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h0",
-            "offer__text": "",
-            "mini_heading_style": "outline",
-            "subheading": "<p></p><p></p>",
-            "description": "",
-            "text_style": "body",
-            "button_label": "",
-            "link": "shopify://collections/acessorios",
-            "show_icon": false,
-            "link_window": true,
-            "view_all_style": "link",
-            "button_label2": "",
-            "link2": "",
-            "show_icon2": false,
-            "link_window2": true,
-            "view_all_style2": "solid",
-            "box_align": "top-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_L3rpGm",
         "slide_A349PK",
         "template--16391993720889__3ec26328-39f6-4397-b03f-f6603259aac8-slide-1",
         "slide_CcDE8G",
-        "slide_8TtXBG",
-        "slide_L3rpGm"
+        "slide_8TtXBG"
       ],
       "settings": {
         "layout": "grid",
@@ -463,6 +463,24 @@
         "swipe_on_mobile": false,
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "scrolling_bar_AT7Vxy": {
+      "type": "scrolling-bar",
+      "settings": {
+        "wb_marktext": "🚨 7.7 DA NIDO - 30% OFF EM TODO O SITE 🚨",
+        "outline_text": false,
+        "mark_space": 25,
+        "mark_speed": 36,
+        "marq_diection": "right_left",
+        "seprater": "pipe",
+        "font_size": 21,
+        "enable_transp": false,
+        "card_color_scheme": "accent-1",
+        "text_padding_top": 12,
+        "text_padding_bottom": 12,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collection_list_VzLbjA": {
@@ -969,24 +987,6 @@
         "color_scheme": "background-1",
         "padding_top": 32,
         "padding_bottom": 64
-      }
-    },
-    "scrolling_bar_AT7Vxy": {
-      "type": "scrolling-bar",
-      "settings": {
-        "wb_marktext": "🌽 Festa Junina Nido — 10% OFF no Pix",
-        "outline_text": false,
-        "mark_space": 25,
-        "mark_speed": 36,
-        "marq_diection": "right_left",
-        "seprater": "pipe",
-        "font_size": 21,
-        "enable_transp": false,
-        "card_color_scheme": "accent-1",
-        "text_padding_top": 12,
-        "text_padding_bottom": 12,
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "8a12a3a7-a50d-4029-898d-88427762a9db": {
